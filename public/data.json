@@ -1,0 +1,3102 @@
+[
+  {
+    "id": 1,
+    "name": "antimage",
+    "nameEN": "Anti-Mage",
+    "nameCN": "敌法师",
+    "abilities": [
+      {
+        "name": "antimage_mana_break",
+        "nameCN": "法力损毁"
+      },
+      {
+        "name": "antimage_blink",
+        "nameCN": "闪烁"
+      },
+      {
+        "name": "antimage_counterspell",
+        "nameCN": "法术反制"
+      },
+      {
+        "name": "antimage_mana_void",
+        "nameCN": "法力虚空"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "axe",
+    "nameEN": "Axe",
+    "nameCN": "斧王",
+    "abilities": [
+      {
+        "name": "axe_berserkers_call",
+        "nameCN": "狂战士之吼"
+      },
+      {
+        "name": "axe_battle_hunger",
+        "nameCN": "战斗饥渴"
+      },
+      {
+        "name": "axe_counter_helix",
+        "nameCN": "反击螺旋"
+      },
+      {
+        "name": "axe_culling_blade",
+        "nameCN": "淘汰之刃"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "bane",
+    "nameEN": "Bane",
+    "nameCN": "祸乱之源",
+    "abilities": [
+      {
+        "name": "bane_enfeeble",
+        "nameCN": "虚弱"
+      },
+      {
+        "name": "bane_brain_sap",
+        "nameCN": "蚀脑"
+      },
+      {
+        "name": "bane_nightmare",
+        "nameCN": "噩梦"
+      },
+      {
+        "name": "bane_fiends_grip",
+        "nameCN": "魔爪"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "bloodseeker",
+    "nameEN": "Bloodseeker",
+    "nameCN": "血魔",
+    "abilities": [
+      {
+        "name": "bloodseeker_bloodrage",
+        "nameCN": "血怒"
+      },
+      {
+        "name": "bloodseeker_blood_bath",
+        "nameCN": "血祭"
+      },
+      {
+        "name": "bloodseeker_thirst",
+        "nameCN": "焦渴"
+      },
+      {
+        "name": "bloodseeker_rupture",
+        "nameCN": "割裂"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "crystal_maiden",
+    "nameEN": "Crystal Maiden",
+    "nameCN": "水晶室女",
+    "abilities": [
+      {
+        "name": "crystal_maiden_crystal_nova",
+        "nameCN": "冰霜新星"
+      },
+      {
+        "name": "crystal_maiden_frostbite",
+        "nameCN": "冰封禁制"
+      },
+      {
+        "name": "crystal_maiden_brilliance_aura",
+        "nameCN": "奥术光环"
+      },
+      {
+        "name": "crystal_maiden_freezing_field",
+        "nameCN": "极寒领域"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "drow_ranger",
+    "nameEN": "Drow Ranger",
+    "nameCN": "卓尔游侠",
+    "abilities": [
+      {
+        "name": "drow_ranger_frost_arrows",
+        "nameCN": "霜冻之箭"
+      },
+      {
+        "name": "drow_ranger_wave_of_silence",
+        "nameCN": "狂风"
+      },
+      {
+        "name": "drow_ranger_multishot",
+        "nameCN": "数箭齐发"
+      },
+      {
+        "name": "drow_ranger_marksmanship",
+        "nameCN": "射手天赋"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "earthshaker",
+    "nameEN": "Earthshaker",
+    "nameCN": "撼地者",
+    "abilities": [
+      {
+        "name": "earthshaker_fissure",
+        "nameCN": "沟壑"
+      },
+      {
+        "name": "earthshaker_enchant_totem",
+        "nameCN": "强化图腾"
+      },
+      {
+        "name": "earthshaker_aftershock",
+        "nameCN": "余震"
+      },
+      {
+        "name": "earthshaker_echo_slam",
+        "nameCN": "回音击"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "juggernaut",
+    "nameEN": "Juggernaut",
+    "nameCN": "主宰",
+    "abilities": [
+      {
+        "name": "juggernaut_blade_fury",
+        "nameCN": "剑刃风暴"
+      },
+      {
+        "name": "juggernaut_healing_ward",
+        "nameCN": "治疗守卫"
+      },
+      {
+        "name": "juggernaut_blade_dance",
+        "nameCN": "剑舞"
+      },
+      {
+        "name": "juggernaut_omni_slash",
+        "nameCN": "无敌斩"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "mirana",
+    "nameEN": "Mirana",
+    "nameCN": "米拉娜",
+    "abilities": [
+      {
+        "name": "mirana_starfall",
+        "nameCN": "群星风暴"
+      },
+      {
+        "name": "mirana_arrow",
+        "nameCN": "月神之箭"
+      },
+      {
+        "name": "mirana_leap",
+        "nameCN": "跳跃"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "nevermore",
+    "nameEN": "Shadow Fiend",
+    "nameCN": "影魔",
+    "abilities": [
+      {
+        "name": "nevermore_shadowraze1",
+        "nameCN": "毁灭阴影"
+      },
+      {
+        "name": "nevermore_frenzy",
+        "nameCN": "灵魂盛宴"
+      },
+      {
+        "name": "nevermore_dark_lord",
+        "nameCN": "魔王降临"
+      },
+      {
+        "name": "nevermore_requiem",
+        "nameCN": "魂之挽歌"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "morphling",
+    "nameEN": "Morphling",
+    "nameCN": "变体精灵",
+    "abilities": [
+      {
+        "name": "morphling_waveform",
+        "nameCN": "波浪形态"
+      },
+      {
+        "name": "morphling_adaptive_strike_agi",
+        "nameCN": "变体打击（敏捷）"
+      },
+      {
+        "name": "morphling_adaptive_strike_str",
+        "nameCN": "变体打击（力量）"
+      },
+      {
+        "name": "morphling_morph_agi",
+        "nameCN": "属性变换（敏捷获取）"
+      },
+      {
+        "name": "morphling_morph_str",
+        "nameCN": "属性变换（力量获取）"
+      },
+      {
+        "name": "morphling_replicate",
+        "nameCN": "变形"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "phantom_lancer",
+    "nameEN": "Phantom Lancer",
+    "nameCN": "幻影长矛手",
+    "abilities": [
+      {
+        "name": "phantom_lancer_spirit_lance",
+        "nameCN": "灵魂之矛"
+      },
+      {
+        "name": "phantom_lancer_doppelwalk",
+        "nameCN": "神行百变"
+      },
+      {
+        "name": "phantom_lancer_phantom_edge",
+        "nameCN": "幻影冲锋"
+      },
+      {
+        "name": "phantom_lancer_juxtapose",
+        "nameCN": "并列"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "puck",
+    "nameEN": "Puck",
+    "nameCN": "帕克",
+    "abilities": [
+      {
+        "name": "puck_illusory_orb",
+        "nameCN": "幻象法球"
+      },
+      {
+        "name": "puck_waning_rift",
+        "nameCN": "新月之痕"
+      },
+      {
+        "name": "puck_phase_shift",
+        "nameCN": "相位转移"
+      },
+      {
+        "name": "puck_dream_coil",
+        "nameCN": "梦境缠绕"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "pudge",
+    "nameEN": "Pudge",
+    "nameCN": "帕吉",
+    "abilities": [
+      {
+        "name": "pudge_meat_hook",
+        "nameCN": "肉钩"
+      },
+      {
+        "name": "pudge_rot",
+        "nameCN": "腐烂"
+      },
+      {
+        "name": "pudge_flesh_heap",
+        "nameCN": "肉盾"
+      },
+      {
+        "name": "pudge_eject",
+        "nameCN": "倾吐"
+      },
+      {
+        "name": "pudge_dismember",
+        "nameCN": "肢解"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "razor",
+    "nameEN": "Razor",
+    "nameCN": "雷泽",
+    "abilities": [
+      {
+        "name": "razor_plasma_field",
+        "nameCN": "等离子场"
+      },
+      {
+        "name": "razor_static_link",
+        "nameCN": "静电连接"
+      },
+      {
+        "name": "razor_storm_surge",
+        "nameCN": "风暴涌动"
+      },
+      {
+        "name": "razor_eye_of_the_storm",
+        "nameCN": "风暴之眼"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "sand_king",
+    "nameEN": "Sand King",
+    "nameCN": "沙王",
+    "abilities": [
+      {
+        "name": "sandking_burrowstrike",
+        "nameCN": "掘地穿刺"
+      },
+      {
+        "name": "sandking_sand_storm",
+        "nameCN": "沙尘暴"
+      },
+      {
+        "name": "sandking_scorpion_strike",
+        "nameCN": "尾刺"
+      },
+      {
+        "name": "sandking_epicenter",
+        "nameCN": "地震"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "storm_spirit",
+    "nameEN": "Storm Spirit",
+    "nameCN": "风暴之灵",
+    "abilities": [
+      {
+        "name": "storm_spirit_static_remnant",
+        "nameCN": "残影"
+      },
+      {
+        "name": "storm_spirit_electric_vortex",
+        "nameCN": "电子涡流"
+      },
+      {
+        "name": "storm_spirit_overload",
+        "nameCN": "超负荷"
+      },
+      {
+        "name": "storm_spirit_ball_lightning",
+        "nameCN": "球状闪电"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "sven",
+    "nameEN": "Sven",
+    "nameCN": "斯温",
+    "abilities": [
+      {
+        "name": "sven_storm_bolt",
+        "nameCN": "风暴之拳"
+      },
+      {
+        "name": "sven_great_cleave",
+        "nameCN": "巨力挥舞"
+      },
+      {
+        "name": "sven_warcry",
+        "nameCN": "战吼"
+      },
+      {
+        "name": "sven_gods_strength",
+        "nameCN": "神之力量"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "tiny",
+    "nameEN": "Tiny",
+    "nameCN": "小小",
+    "abilities": [
+      {
+        "name": "tiny_avalanche",
+        "nameCN": "山崩"
+      },
+      {
+        "name": "tiny_toss",
+        "nameCN": "投掷"
+      },
+      {
+        "name": "tiny_tree_grab",
+        "nameCN": "抓树"
+      },
+      {
+        "name": "tiny_grow",
+        "nameCN": "长大"
+      },
+      {
+        "name": "tiny_toss_tree",
+        "nameCN": "扔树"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "vengefulspirit",
+    "nameEN": "Vengeful Spirit",
+    "nameCN": "复仇之魂",
+    "abilities": [
+      {
+        "name": "vengefulspirit_magic_missile",
+        "nameCN": "魔法箭"
+      },
+      {
+        "name": "vengefulspirit_wave_of_terror",
+        "nameCN": "恐怖波动"
+      },
+      {
+        "name": "vengefulspirit_command_aura",
+        "nameCN": "复仇光环"
+      },
+      {
+        "name": "vengefulspirit_nether_swap",
+        "nameCN": "移形换位"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "windrunner",
+    "nameEN": "Windranger",
+    "nameCN": "风行者",
+    "abilities": [
+      {
+        "name": "windrunner_shackleshot",
+        "nameCN": "束缚击"
+      },
+      {
+        "name": "windrunner_powershot",
+        "nameCN": "强力击"
+      },
+      {
+        "name": "windrunner_windrun",
+        "nameCN": "风行"
+      },
+      {
+        "name": "windrunner_focusfire",
+        "nameCN": "集中火力"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "zuus",
+    "nameEN": "Zeus",
+    "nameCN": "宙斯",
+    "abilities": [
+      {
+        "name": "zuus_arc_lightning",
+        "nameCN": "弧形闪电"
+      },
+      {
+        "name": "zuus_lightning_bolt",
+        "nameCN": "雷击"
+      },
+      {
+        "name": "zuus_heavenly_jump",
+        "nameCN": "神圣一跳"
+      },
+      {
+        "name": "zuus_thundergods_wrath",
+        "nameCN": "雷神之怒"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "kunkka",
+    "nameEN": "Kunkka",
+    "nameCN": "昆卡",
+    "abilities": [
+      {
+        "name": "kunkka_torrent",
+        "nameCN": "洪流"
+      },
+      {
+        "name": "kunkka_tidebringer",
+        "nameCN": "潮汐使者"
+      },
+      {
+        "name": "kunkka_x_marks_the_spot",
+        "nameCN": "X标记"
+      },
+      {
+        "name": "kunkka_ghostship",
+        "nameCN": "幽灵船"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "lina",
+    "nameEN": "Lina",
+    "nameCN": "莉娜",
+    "abilities": [
+      {
+        "name": "lina_dragon_slave",
+        "nameCN": "龙破斩"
+      },
+      {
+        "name": "lina_light_strike_array",
+        "nameCN": "光击阵"
+      },
+      {
+        "name": "lina_fiery_soul",
+        "nameCN": "炽魂"
+      },
+      {
+        "name": "lina_laguna_blade",
+        "nameCN": "神灭斩"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "lich",
+    "nameEN": "Lich",
+    "nameCN": "巫妖",
+    "abilities": [
+      {
+        "name": "lich_frost_nova",
+        "nameCN": "寒霜爆发"
+      },
+      {
+        "name": "lich_frost_shield",
+        "nameCN": "冰霜魔盾"
+      },
+      {
+        "name": "lich_sinister_gaze",
+        "nameCN": "阴邪凝视"
+      },
+      {
+        "name": "lich_chain_frost",
+        "nameCN": "连环霜冻"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "lion",
+    "nameEN": "Lion",
+    "nameCN": "莱恩",
+    "abilities": [
+      {
+        "name": "lion_impale",
+        "nameCN": "裂地尖刺"
+      },
+      {
+        "name": "lion_voodoo",
+        "nameCN": "妖术"
+      },
+      {
+        "name": "lion_mana_drain",
+        "nameCN": "法力吸取"
+      },
+      {
+        "name": "lion_finger_of_death",
+        "nameCN": "死亡之指"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "shadow_shaman",
+    "nameEN": "Shadow Shaman",
+    "nameCN": "暗影萨满",
+    "abilities": [
+      {
+        "name": "shadow_shaman_ether_shock",
+        "nameCN": "苍穹震击"
+      },
+      {
+        "name": "shadow_shaman_voodoo",
+        "nameCN": "妖术"
+      },
+      {
+        "name": "shadow_shaman_shackles",
+        "nameCN": "枷锁"
+      },
+      {
+        "name": "shadow_shaman_mass_serpent_ward",
+        "nameCN": "群蛇守卫"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "slardar",
+    "nameEN": "Slardar",
+    "nameCN": "斯拉达",
+    "abilities": [
+      {
+        "name": "slardar_sprint",
+        "nameCN": "守卫冲刺"
+      },
+      {
+        "name": "slardar_slithereen_crush",
+        "nameCN": "鱼人碎击"
+      },
+      {
+        "name": "slardar_bash",
+        "nameCN": "深海重击"
+      },
+      {
+        "name": "slardar_amplify_damage",
+        "nameCN": "侵蚀雾霭"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "tidehunter",
+    "nameEN": "Tidehunter",
+    "nameCN": "潮汐猎人",
+    "abilities": [
+      {
+        "name": "tidehunter_gush",
+        "nameCN": "巨浪"
+      },
+      {
+        "name": "tidehunter_kraken_shell",
+        "nameCN": "海妖外壳"
+      },
+      {
+        "name": "tidehunter_anchor_smash",
+        "nameCN": "锚击"
+      },
+      {
+        "name": "tidehunter_ravage",
+        "nameCN": "毁灭"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "witch_doctor",
+    "nameEN": "Witch Doctor",
+    "nameCN": "巫医",
+    "abilities": [
+      {
+        "name": "witch_doctor_paralyzing_cask",
+        "nameCN": "麻痹药剂"
+      },
+      {
+        "name": "witch_doctor_voodoo_restoration",
+        "nameCN": "巫毒疗法"
+      },
+      {
+        "name": "witch_doctor_maledict",
+        "nameCN": "巫蛊咒术"
+      },
+      {
+        "name": "witch_doctor_death_ward",
+        "nameCN": "死亡守卫"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "riki",
+    "nameEN": "Riki",
+    "nameCN": "力丸",
+    "abilities": [
+      {
+        "name": "riki_smoke_screen",
+        "nameCN": "烟幕"
+      },
+      {
+        "name": "riki_blink_strike",
+        "nameCN": "闪烁突袭"
+      },
+      {
+        "name": "riki_tricks_of_the_trade",
+        "nameCN": "绝杀秘技"
+      },
+      {
+        "name": "riki_backstab",
+        "nameCN": "刀光谍影"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "enigma",
+    "nameEN": "Enigma",
+    "nameCN": "谜团",
+    "abilities": [
+      {
+        "name": "enigma_malefice",
+        "nameCN": "憎恶"
+      },
+      {
+        "name": "enigma_demonic_conversion",
+        "nameCN": "恶魔召唤"
+      },
+      {
+        "name": "enigma_midnight_pulse",
+        "nameCN": "午夜凋零"
+      },
+      {
+        "name": "enigma_black_hole",
+        "nameCN": "黑洞"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "tinker",
+    "nameEN": "Tinker",
+    "nameCN": "修补匠",
+    "abilities": [
+      {
+        "name": "tinker_laser",
+        "nameCN": "激光"
+      },
+      {
+        "name": "tinker_march_of_the_machines",
+        "nameCN": "机械行军"
+      },
+      {
+        "name": "tinker_defense_matrix",
+        "nameCN": "防御矩阵"
+      },
+      {
+        "name": "tinker_rearm",
+        "nameCN": "再装填"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "sniper",
+    "nameEN": "Sniper",
+    "nameCN": "狙击手",
+    "abilities": [
+      {
+        "name": "sniper_shrapnel",
+        "nameCN": "榴霰弹"
+      },
+      {
+        "name": "sniper_headshot",
+        "nameCN": "爆头"
+      },
+      {
+        "name": "sniper_take_aim",
+        "nameCN": "瞄准"
+      },
+      {
+        "name": "sniper_assassinate",
+        "nameCN": "暗杀"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "necrolyte",
+    "nameEN": "Necrophos",
+    "nameCN": "瘟疫法师",
+    "abilities": [
+      {
+        "name": "necrolyte_death_pulse",
+        "nameCN": "死亡脉冲"
+      },
+      {
+        "name": "necrolyte_ghost_shroud",
+        "nameCN": "幽魂护罩"
+      },
+      {
+        "name": "necrolyte_heartstopper_aura",
+        "nameCN": "竭心光环"
+      },
+      {
+        "name": "necrolyte_reapers_scythe",
+        "nameCN": "死神镰刀"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "warlock",
+    "nameEN": "Warlock",
+    "nameCN": "术士",
+    "abilities": [
+      {
+        "name": "warlock_fatal_bonds",
+        "nameCN": "致命连接"
+      },
+      {
+        "name": "warlock_shadow_word",
+        "nameCN": "暗言术"
+      },
+      {
+        "name": "warlock_upheaval",
+        "nameCN": "剧变"
+      },
+      {
+        "name": "warlock_rain_of_chaos",
+        "nameCN": "混乱之祭"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "beastmaster",
+    "nameEN": "Beastmaster",
+    "nameCN": "兽王",
+    "abilities": [
+      {
+        "name": "beastmaster_wild_axes",
+        "nameCN": "野性之斧"
+      },
+      {
+        "name": "beastmaster_call_of_the_wild_boar",
+        "nameCN": "野性呼唤豪猪"
+      },
+      {
+        "name": "beastmaster_call_of_the_wild_hawk",
+        "nameCN": "野性呼唤战鹰"
+      },
+      {
+        "name": "beastmaster_inner_beast",
+        "nameCN": "野性之心"
+      },
+      {
+        "name": "beastmaster_primal_roar",
+        "nameCN": "原始咆哮"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "queenofpain",
+    "nameEN": "Queen of Pain",
+    "nameCN": "痛苦女王",
+    "abilities": [
+      {
+        "name": "queenofpain_shadow_strike",
+        "nameCN": "暗影突袭"
+      },
+      {
+        "name": "queenofpain_blink",
+        "nameCN": "闪烁"
+      },
+      {
+        "name": "queenofpain_scream_of_pain",
+        "nameCN": "痛苦尖叫"
+      },
+      {
+        "name": "queenofpain_sonic_wave",
+        "nameCN": "超声冲击波"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "venomancer",
+    "nameEN": "Venomancer",
+    "nameCN": "剧毒术士",
+    "abilities": [
+      {
+        "name": "venomancer_venomous_gale",
+        "nameCN": "瘴气"
+      },
+      {
+        "name": "venomancer_poison_sting",
+        "nameCN": "毒刺"
+      },
+      {
+        "name": "venomancer_plague_ward",
+        "nameCN": "瘟疫守卫"
+      },
+      {
+        "name": "venomancer_noxious_plague",
+        "nameCN": "恶性瘟疫"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "faceless_void",
+    "nameEN": "Faceless Void",
+    "nameCN": "虚空假面",
+    "abilities": [
+      {
+        "name": "faceless_void_time_walk",
+        "nameCN": "时间漫游"
+      },
+      {
+        "name": "faceless_void_time_dilation",
+        "nameCN": "时间膨胀"
+      },
+      {
+        "name": "faceless_void_time_lock",
+        "nameCN": "时间锁定"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "skeleton_king",
+    "nameEN": "Wraith King",
+    "nameCN": "冥魂大帝",
+    "abilities": [
+      {
+        "name": "skeleton_king_hellfire_blast",
+        "nameCN": "冥火爆击"
+      },
+      {
+        "name": "skeleton_king_mortal_strike",
+        "nameCN": "本命一击"
+      },
+      {
+        "name": "skeleton_king_reincarnation",
+        "nameCN": "绝冥再生"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "death_prophet",
+    "nameEN": "Death Prophet",
+    "nameCN": "死亡先知",
+    "abilities": [
+      {
+        "name": "death_prophet_carrion_swarm",
+        "nameCN": "地穴虫群"
+      },
+      {
+        "name": "death_prophet_silence",
+        "nameCN": "沉默魔法"
+      },
+      {
+        "name": "death_prophet_spirit_siphon",
+        "nameCN": "吸魂巫术"
+      },
+      {
+        "name": "death_prophet_exorcism",
+        "nameCN": "驱使恶灵"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "phantom_assassin",
+    "nameEN": "Phantom Assassin",
+    "nameCN": "幻影刺客",
+    "abilities": [
+      {
+        "name": "phantom_assassin_stifling_dagger",
+        "nameCN": "窒碍短匕"
+      },
+      {
+        "name": "phantom_assassin_phantom_strike",
+        "nameCN": "幻影突袭"
+      },
+      {
+        "name": "phantom_assassin_blur",
+        "nameCN": "魅影无形"
+      },
+      {
+        "name": "phantom_assassin_coup_de_grace",
+        "nameCN": "恩赐解脱"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "pugna",
+    "nameEN": "Pugna",
+    "nameCN": "帕格纳",
+    "abilities": [
+      {
+        "name": "pugna_nether_blast",
+        "nameCN": "幽冥爆轰"
+      },
+      {
+        "name": "pugna_decrepify",
+        "nameCN": "衰老"
+      },
+      {
+        "name": "pugna_nether_ward",
+        "nameCN": "幽冥守卫"
+      },
+      {
+        "name": "pugna_life_drain",
+        "nameCN": "生命汲取"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "templar_assassin",
+    "nameEN": "Templar Assassin",
+    "nameCN": "圣堂刺客",
+    "abilities": [
+      {
+        "name": "templar_assassin_refraction",
+        "nameCN": "折光"
+      },
+      {
+        "name": "templar_assassin_meld",
+        "nameCN": "隐匿"
+      },
+      {
+        "name": "templar_assassin_psi_blades",
+        "nameCN": "灵能之刃"
+      },
+      {
+        "name": "templar_assassin_psionic_trap",
+        "nameCN": "灵能陷阱"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "viper",
+    "nameEN": "Viper",
+    "nameCN": "冥界亚龙",
+    "abilities": [
+      {
+        "name": "viper_poison_attack",
+        "nameCN": "毒性攻击"
+      },
+      {
+        "name": "viper_nethertoxin",
+        "nameCN": "幽冥剧毒"
+      },
+      {
+        "name": "viper_corrosive_skin",
+        "nameCN": "腐蚀皮肤"
+      },
+      {
+        "name": "viper_viper_strike",
+        "nameCN": "蝮蛇突袭"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "luna",
+    "nameEN": "Luna",
+    "nameCN": "露娜",
+    "abilities": [
+      {
+        "name": "luna_lucent_beam",
+        "nameCN": "月光"
+      },
+      {
+        "name": "luna_lunar_orbit",
+        "nameCN": "环月"
+      },
+      {
+        "name": "luna_moon_glaive",
+        "nameCN": "月刃"
+      },
+      {
+        "name": "luna_eclipse",
+        "nameCN": "月蚀"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "dragon_knight",
+    "nameEN": "Dragon Knight",
+    "nameCN": "龙骑士",
+    "abilities": [
+      {
+        "name": "dragon_knight_breathe_fire",
+        "nameCN": "火焰气息"
+      },
+      {
+        "name": "dragon_knight_dragon_tail",
+        "nameCN": "神龙摆尾"
+      },
+      {
+        "name": "dragon_knight_dragon_blood",
+        "nameCN": "飞龙之怒"
+      },
+      {
+        "name": "dragon_knight_elder_dragon_form",
+        "nameCN": "古龙形态"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "dazzle",
+    "nameEN": "Dazzle",
+    "nameCN": "戴泽",
+    "abilities": [
+      {
+        "name": "dazzle_poison_touch",
+        "nameCN": "剧毒之触"
+      },
+      {
+        "name": "dazzle_shallow_grave",
+        "nameCN": "薄葬"
+      },
+      {
+        "name": "dazzle_shadow_wave",
+        "nameCN": "暗影波"
+      },
+      {
+        "name": "dazzle_bad_juju",
+        "nameCN": "邪能"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "rattletrap",
+    "nameEN": "Clockwerk",
+    "nameCN": "发条技师",
+    "abilities": [
+      {
+        "name": "rattletrap_battery_assault",
+        "nameCN": "弹幕冲击"
+      },
+      {
+        "name": "rattletrap_power_cogs",
+        "nameCN": "能量齿轮"
+      },
+      {
+        "name": "rattletrap_rocket_flare",
+        "nameCN": "照明火箭"
+      },
+      {
+        "name": "rattletrap_hookshot",
+        "nameCN": "发射钩爪"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "leshrac",
+    "nameEN": "Leshrac",
+    "nameCN": "拉席克",
+    "abilities": [
+      {
+        "name": "leshrac_split_earth",
+        "nameCN": "撕裂大地"
+      },
+      {
+        "name": "leshrac_diabolic_edict",
+        "nameCN": "恶魔敕令"
+      },
+      {
+        "name": "leshrac_lightning_storm",
+        "nameCN": "闪电风暴"
+      },
+      {
+        "name": "leshrac_pulse_nova",
+        "nameCN": "脉冲新星"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "furion",
+    "nameEN": "Nature's Prophet",
+    "nameCN": "自然先知",
+    "abilities": [
+      {
+        "name": "furion_sprout",
+        "nameCN": "发芽"
+      },
+      {
+        "name": "furion_teleportation",
+        "nameCN": "传送"
+      },
+      {
+        "name": "furion_force_of_nature",
+        "nameCN": "自然的呼唤"
+      },
+      {
+        "name": "furion_wrath_of_nature",
+        "nameCN": "自然之怒"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "life_stealer",
+    "nameEN": "Lifestealer",
+    "nameCN": "噬魂鬼",
+    "abilities": [
+      {
+        "name": "life_stealer_open_wounds",
+        "nameCN": "撕裂伤口"
+      },
+      {
+        "name": "life_stealer_ghoul_frenzy",
+        "nameCN": "尸鬼狂怒"
+      },
+      {
+        "name": "life_stealer_infest",
+        "nameCN": "感染"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "dark_seer",
+    "nameEN": "Dark Seer",
+    "nameCN": "黑暗贤者",
+    "abilities": [
+      {
+        "name": "dark_seer_vacuum",
+        "nameCN": "真空"
+      },
+      {
+        "name": "dark_seer_ion_shell",
+        "nameCN": "离子外壳"
+      },
+      {
+        "name": "dark_seer_surge",
+        "nameCN": "奔腾"
+      },
+      {
+        "name": "dark_seer_wall_of_replica",
+        "nameCN": "复制之墙"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "clinkz",
+    "nameEN": "Clinkz",
+    "nameCN": "克林克兹",
+    "abilities": [
+      {
+        "name": "clinkz_strafe",
+        "nameCN": "扫射"
+      },
+      {
+        "name": "clinkz_tar_bomb",
+        "nameCN": "焦油炸弹"
+      },
+      {
+        "name": "clinkz_death_pact",
+        "nameCN": "死亡契约"
+      },
+      {
+        "name": "clinkz_wind_walk",
+        "nameCN": "骨隐步"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "omniknight",
+    "nameEN": "Omniknight",
+    "nameCN": "全能骑士",
+    "abilities": [
+      {
+        "name": "omniknight_purification",
+        "nameCN": "洗礼"
+      },
+      {
+        "name": "omniknight_martyr",
+        "nameCN": "驱逐"
+      },
+      {
+        "name": "omniknight_hammer_of_purity",
+        "nameCN": "纯洁之锤"
+      },
+      {
+        "name": "omniknight_guardian_angel",
+        "nameCN": "守护天使"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "enchantress",
+    "nameEN": "Enchantress",
+    "nameCN": "魅惑魔女",
+    "abilities": [
+      {
+        "name": "enchantress_impetus",
+        "nameCN": "推进"
+      },
+      {
+        "name": "enchantress_enchant",
+        "nameCN": "魅惑"
+      },
+      {
+        "name": "enchantress_natures_attendants",
+        "nameCN": "自然之助"
+      },
+      {
+        "name": "enchantress_untouchable",
+        "nameCN": "不可侵犯"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "huskar",
+    "nameEN": "Huskar",
+    "nameCN": "哈斯卡",
+    "abilities": [
+      {
+        "name": "huskar_inner_fire",
+        "nameCN": "心炎"
+      },
+      {
+        "name": "huskar_burning_spear",
+        "nameCN": "沸血之矛"
+      },
+      {
+        "name": "huskar_berserkers_blood",
+        "nameCN": "狂战士之血"
+      },
+      {
+        "name": "huskar_life_break",
+        "nameCN": "牺牲"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "night_stalker",
+    "nameEN": "Night Stalker",
+    "nameCN": "暗夜魔王",
+    "abilities": [
+      {
+        "name": "night_stalker_void",
+        "nameCN": "虚空"
+      },
+      {
+        "name": "night_stalker_crippling_fear",
+        "nameCN": "伤残恐惧"
+      },
+      {
+        "name": "night_stalker_hunter_in_the_night",
+        "nameCN": "暗夜猎影"
+      },
+      {
+        "name": "night_stalker_darkness",
+        "nameCN": "黑暗飞升"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "broodmother",
+    "nameEN": "Broodmother",
+    "nameCN": "育母蜘蛛",
+    "abilities": [
+      {
+        "name": "broodmother_insatiable_hunger",
+        "nameCN": "极度饥渴"
+      },
+      {
+        "name": "broodmother_spin_web",
+        "nameCN": "织网"
+      },
+      {
+        "name": "broodmother_incapacitating_bite",
+        "nameCN": "麻痹之咬"
+      },
+      {
+        "name": "broodmother_spawn_spiderlings",
+        "nameCN": "孵化蜘蛛"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "bounty_hunter",
+    "nameEN": "Bounty Hunter",
+    "nameCN": "赏金猎人",
+    "abilities": [
+      {
+        "name": "bounty_hunter_shuriken_toss",
+        "nameCN": "投掷飞镖"
+      },
+      {
+        "name": "bounty_hunter_jinada",
+        "nameCN": "忍术"
+      },
+      {
+        "name": "bounty_hunter_wind_walk",
+        "nameCN": "暗影步"
+      },
+      {
+        "name": "bounty_hunter_track",
+        "nameCN": "追踪术"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "weaver",
+    "nameEN": "Weaver",
+    "nameCN": "编织者",
+    "abilities": [
+      {
+        "name": "weaver_the_swarm",
+        "nameCN": "虫群"
+      },
+      {
+        "name": "weaver_shukuchi",
+        "nameCN": "缩地"
+      },
+      {
+        "name": "weaver_geminate_attack",
+        "nameCN": "连击"
+      },
+      {
+        "name": "weaver_time_lapse",
+        "nameCN": "时光倒流"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "jakiro",
+    "nameEN": "Jakiro",
+    "nameCN": "杰奇洛",
+    "abilities": [
+      {
+        "name": "jakiro_dual_breath",
+        "nameCN": "冰火交加"
+      },
+      {
+        "name": "jakiro_ice_path",
+        "nameCN": "冰封路径"
+      },
+      {
+        "name": "jakiro_macropyre",
+        "nameCN": "烈焰焚身"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "batrider",
+    "nameEN": "Batrider",
+    "nameCN": "蝙蝠骑士",
+    "abilities": [
+      {
+        "name": "batrider_sticky_napalm",
+        "nameCN": "粘性燃油"
+      },
+      {
+        "name": "batrider_flamebreak",
+        "nameCN": "烈焰破击"
+      },
+      {
+        "name": "batrider_firefly",
+        "nameCN": "火焰飞行"
+      },
+      {
+        "name": "batrider_flaming_lasso",
+        "nameCN": "燃烧枷锁"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "chen",
+    "nameEN": "Chen",
+    "nameCN": "陈",
+    "abilities": [
+      {
+        "name": "chen_penitence",
+        "nameCN": "赎罪"
+      },
+      {
+        "name": "chen_holy_persuasion",
+        "nameCN": "神圣劝化"
+      },
+      {
+        "name": "chen_divine_favor",
+        "nameCN": "神力恩泽"
+      },
+      {
+        "name": "chen_hand_of_god",
+        "nameCN": "上帝之手"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "spectre",
+    "nameEN": "Spectre",
+    "nameCN": "幽鬼",
+    "abilities": [
+      {
+        "name": "spectre_spectral_dagger",
+        "nameCN": "幽鬼之刃"
+      },
+      {
+        "name": "spectre_desolate",
+        "nameCN": "荒芜"
+      },
+      {
+        "name": "spectre_dispersion",
+        "nameCN": "折射"
+      },
+      {
+        "name": "spectre_haunt_single",
+        "nameCN": "如影随形"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "doom_bringer",
+    "nameEN": "Doom",
+    "nameCN": "末日使者",
+    "abilities": [
+      {
+        "name": "doom_bringer_devour",
+        "nameCN": "吞噬"
+      },
+      {
+        "name": "doom_bringer_scorched_earth",
+        "nameCN": "焦土"
+      },
+      {
+        "name": "doom_bringer_infernal_blade",
+        "nameCN": "阎刃"
+      },
+      {
+        "name": "doom_bringer_doom",
+        "nameCN": "末日"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "ancient_apparition",
+    "nameEN": "Ancient Apparition",
+    "nameCN": "远古冰魄",
+    "abilities": [
+      {
+        "name": "ancient_apparition_cold_feet",
+        "nameCN": "寒霜之足"
+      },
+      {
+        "name": "ancient_apparition_ice_vortex",
+        "nameCN": "冰霜漩涡"
+      },
+      {
+        "name": "ancient_apparition_chilling_touch",
+        "nameCN": "极寒之触"
+      },
+      {
+        "name": "ancient_apparition_ice_blast",
+        "nameCN": "冰晶爆轰"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "ursa",
+    "nameEN": "Ursa",
+    "nameCN": "熊战士",
+    "abilities": [
+      {
+        "name": "ursa_earthshock",
+        "nameCN": "震撼大地"
+      },
+      {
+        "name": "ursa_overpower",
+        "nameCN": "超强力量"
+      },
+      {
+        "name": "ursa_fury_swipes",
+        "nameCN": "怒意狂击"
+      },
+      {
+        "name": "ursa_enrage",
+        "nameCN": "激怒"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "spirit_breaker",
+    "nameEN": "Spirit Breaker",
+    "nameCN": "裂魂人",
+    "abilities": [
+      {
+        "name": "spirit_breaker_charge_of_darkness",
+        "nameCN": "暗影冲刺"
+      },
+      {
+        "name": "spirit_breaker_bulldoze",
+        "nameCN": "威吓"
+      },
+      {
+        "name": "spirit_breaker_greater_bash",
+        "nameCN": "巨力重击"
+      },
+      {
+        "name": "spirit_breaker_nether_strike",
+        "nameCN": "幽冥一击"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "gyrocopter",
+    "nameEN": "Gyrocopter",
+    "nameCN": "矮人直升机",
+    "abilities": [
+      {
+        "name": "gyrocopter_rocket_barrage",
+        "nameCN": "火箭弹幕"
+      },
+      {
+        "name": "gyrocopter_homing_missile",
+        "nameCN": "追踪导弹"
+      },
+      {
+        "name": "gyrocopter_flak_cannon",
+        "nameCN": "高射火炮"
+      },
+      {
+        "name": "gyrocopter_call_down",
+        "nameCN": "召唤飞弹"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "alchemist",
+    "nameEN": "Alchemist",
+    "nameCN": "炼金术士",
+    "abilities": [
+      {
+        "name": "alchemist_acid_spray",
+        "nameCN": "酸性喷雾"
+      },
+      {
+        "name": "alchemist_unstable_concoction",
+        "nameCN": "不稳定化合物"
+      },
+      {
+        "name": "alchemist_corrosive_weaponry",
+        "nameCN": "腐蚀兵械"
+      },
+      {
+        "name": "alchemist_chemical_rage",
+        "nameCN": "化学狂暴"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "invoker",
+    "nameEN": "Invoker",
+    "nameCN": "祈求者",
+    "abilities": [
+      {
+        "name": "invoker_quas",
+        "nameCN": "冰"
+      },
+      {
+        "name": "invoker_wex",
+        "nameCN": "雷"
+      },
+      {
+        "name": "invoker_exort",
+        "nameCN": "火"
+      },
+      {
+        "name": "invoker_invoke",
+        "nameCN": "元素祈唤"
+      },
+      {
+        "name": "invoker_cold_snap",
+        "nameCN": "急速冷却"
+      },
+      {
+        "name": "invoker_ghost_walk",
+        "nameCN": "幽灵漫步"
+      },
+      {
+        "name": "invoker_tornado",
+        "nameCN": "强袭飓风"
+      },
+      {
+        "name": "invoker_emp",
+        "nameCN": "电磁脉冲"
+      },
+      {
+        "name": "invoker_alacrity",
+        "nameCN": "灵动迅捷"
+      },
+      {
+        "name": "invoker_chaos_meteor",
+        "nameCN": "混沌陨石"
+      },
+      {
+        "name": "invoker_sun_strike",
+        "nameCN": "阳炎冲击"
+      },
+      {
+        "name": "invoker_forge_spirit",
+        "nameCN": "熔炉精灵"
+      },
+      {
+        "name": "invoker_ice_wall",
+        "nameCN": "寒冰之墙"
+      },
+      {
+        "name": "invoker_deafening_blast",
+        "nameCN": "超震声波"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "silencer",
+    "nameEN": "Silencer",
+    "nameCN": "沉默术士",
+    "abilities": [
+      {
+        "name": "silencer_curse_of_the_silent",
+        "nameCN": "奥术诅咒"
+      },
+      {
+        "name": "silencer_glaives_of_wisdom",
+        "nameCN": "智慧之刃"
+      },
+      {
+        "name": "silencer_last_word",
+        "nameCN": "遗言"
+      },
+      {
+        "name": "silencer_global_silence",
+        "nameCN": "全领域静默"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "obsidian_destroyer",
+    "nameEN": "Outworld Destroyer",
+    "nameCN": "殁境神蚀者",
+    "abilities": [
+      {
+        "name": "obsidian_destroyer_arcane_orb",
+        "nameCN": "奥术天球"
+      },
+      {
+        "name": "obsidian_destroyer_astral_imprisonment",
+        "nameCN": "星体禁锢"
+      },
+      {
+        "name": "obsidian_destroyer_equilibrium",
+        "nameCN": "精华变迁"
+      },
+      {
+        "name": "obsidian_destroyer_sanity_eclipse",
+        "nameCN": "神智之蚀"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "lycan",
+    "nameEN": "Lycan",
+    "nameCN": "狼人",
+    "abilities": [
+      {
+        "name": "lycan_summon_wolves",
+        "nameCN": "召狼"
+      },
+      {
+        "name": "lycan_howl",
+        "nameCN": "嗥叫"
+      },
+      {
+        "name": "lycan_feral_impulse",
+        "nameCN": "野性驱使"
+      },
+      {
+        "name": "lycan_shapeshift",
+        "nameCN": "变身"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "brewmaster",
+    "nameEN": "Brewmaster",
+    "nameCN": "酒仙",
+    "abilities": [
+      {
+        "name": "brewmaster_thunder_clap",
+        "nameCN": "雷霆一击"
+      },
+      {
+        "name": "brewmaster_cinder_brew",
+        "nameCN": "余烬佳酿"
+      },
+      {
+        "name": "brewmaster_drunken_brawler",
+        "nameCN": "醉拳"
+      },
+      {
+        "name": "brewmaster_primal_split",
+        "nameCN": "元素分离"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "shadow_demon",
+    "nameEN": "Shadow Demon",
+    "nameCN": "暗影恶魔",
+    "abilities": [
+      {
+        "name": "shadow_demon_disruption",
+        "nameCN": "崩裂禁锢"
+      },
+      {
+        "name": "shadow_demon_disseminate",
+        "nameCN": "散播"
+      },
+      {
+        "name": "shadow_demon_shadow_poison",
+        "nameCN": "暗影剧毒"
+      },
+      {
+        "name": "shadow_demon_demonic_purge",
+        "nameCN": "邪恶净化"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "lone_druid",
+    "nameEN": "Lone Druid",
+    "nameCN": "独行德鲁伊",
+    "abilities": [
+      {
+        "name": "lone_druid_spirit_bear",
+        "nameCN": "熊灵伙伴"
+      },
+      {
+        "name": "lone_druid_spirit_link",
+        "nameCN": "灵魂链接"
+      },
+      {
+        "name": "lone_druid_savage_roar",
+        "nameCN": "野蛮咆哮"
+      },
+      {
+        "name": "lone_druid_true_form",
+        "nameCN": "真熊形态"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "chaos_knight",
+    "nameEN": "Chaos Knight",
+    "nameCN": "混沌骑士",
+    "abilities": [
+      {
+        "name": "chaos_knight_chaos_bolt",
+        "nameCN": "混乱之箭"
+      },
+      {
+        "name": "chaos_knight_reality_rift",
+        "nameCN": "实相裂隙"
+      },
+      {
+        "name": "chaos_knight_chaos_strike",
+        "nameCN": "混沌一击"
+      },
+      {
+        "name": "chaos_knight_phantasm",
+        "nameCN": "混沌之军"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "meepo",
+    "nameEN": "Meepo",
+    "nameCN": "米波",
+    "abilities": [
+      {
+        "name": "meepo_earthbind",
+        "nameCN": "地之束缚"
+      },
+      {
+        "name": "meepo_poof",
+        "nameCN": "忽悠"
+      },
+      {
+        "name": "meepo_ransack",
+        "nameCN": "洗劫"
+      },
+      {
+        "name": "meepo_divided_we_stand",
+        "nameCN": "分则能成"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "treant",
+    "nameEN": "Treant Protector",
+    "nameCN": "树精卫士",
+    "abilities": [
+      {
+        "name": "treant_natures_grasp",
+        "nameCN": "自然卷握"
+      },
+      {
+        "name": "treant_leech_seed",
+        "nameCN": "寄生种子"
+      },
+      {
+        "name": "treant_living_armor",
+        "nameCN": "活体护甲"
+      },
+      {
+        "name": "treant_overgrowth",
+        "nameCN": "疯狂生长"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "ogre_magi",
+    "nameEN": "Ogre Magi",
+    "nameCN": "食人魔魔法师",
+    "abilities": [
+      {
+        "name": "ogre_magi_fireblast",
+        "nameCN": "火焰爆轰"
+      },
+      {
+        "name": "ogre_magi_ignite",
+        "nameCN": "引燃"
+      },
+      {
+        "name": "ogre_magi_bloodlust",
+        "nameCN": "嗜血术"
+      },
+      {
+        "name": "ogre_magi_multicast",
+        "nameCN": "多重施法"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "undying",
+    "nameEN": "Undying",
+    "nameCN": "不朽尸王",
+    "abilities": [
+      {
+        "name": "undying_decay",
+        "nameCN": "腐朽"
+      },
+      {
+        "name": "undying_soul_rip",
+        "nameCN": "噬魂"
+      },
+      {
+        "name": "undying_tombstone",
+        "nameCN": "墓碑"
+      },
+      {
+        "name": "undying_flesh_golem",
+        "nameCN": "血肉傀儡"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "rubick",
+    "nameEN": "Rubick",
+    "nameCN": "拉比克",
+    "abilities": [
+      {
+        "name": "rubick_telekinesis",
+        "nameCN": "隔空取物"
+      },
+      {
+        "name": "rubick_fade_bolt",
+        "nameCN": "弱化能流"
+      },
+      {
+        "name": "rubick_arcane_supremacy",
+        "nameCN": "奥术至尊"
+      },
+      {
+        "name": "rubick_spell_steal",
+        "nameCN": "技能窃取"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "disruptor",
+    "nameEN": "Disruptor",
+    "nameCN": "干扰者",
+    "abilities": [
+      {
+        "name": "disruptor_thunder_strike",
+        "nameCN": "风雷之击"
+      },
+      {
+        "name": "disruptor_glimpse",
+        "nameCN": "恶念瞥视"
+      },
+      {
+        "name": "disruptor_kinetic_field",
+        "nameCN": "动能力场"
+      },
+      {
+        "name": "disruptor_static_storm",
+        "nameCN": "静态风暴"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "nyx_assassin",
+    "nameEN": "Nyx Assassin",
+    "nameCN": "司夜刺客",
+    "abilities": [
+      {
+        "name": "nyx_assassin_impale",
+        "nameCN": "穿刺"
+      },
+      {
+        "name": "nyx_assassin_jolt",
+        "nameCN": "神智爆裂"
+      },
+      {
+        "name": "nyx_assassin_spiked_carapace",
+        "nameCN": "尖刺外壳"
+      },
+      {
+        "name": "nyx_assassin_vendetta",
+        "nameCN": "复仇"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "naga_siren",
+    "nameEN": "Naga Siren",
+    "nameCN": "娜迦海妖",
+    "abilities": [
+      {
+        "name": "naga_siren_mirror_image",
+        "nameCN": "镜像"
+      },
+      {
+        "name": "naga_siren_ensnare",
+        "nameCN": "诱捕"
+      },
+      {
+        "name": "naga_siren_song_of_the_siren",
+        "nameCN": "海妖之歌"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "keeper_of_the_light",
+    "nameEN": "Keeper of the Light",
+    "nameCN": "光之守卫",
+    "abilities": [
+      {
+        "name": "keeper_of_the_light_illuminate",
+        "nameCN": "冲击波"
+      },
+      {
+        "name": "keeper_of_the_light_blinding_light",
+        "nameCN": "致盲之光"
+      },
+      {
+        "name": "keeper_of_the_light_chakra_magic",
+        "nameCN": "查克拉魔法"
+      },
+      {
+        "name": "keeper_of_the_light_spirit_form",
+        "nameCN": "灵魂形态"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "wisp",
+    "nameEN": "Io",
+    "nameCN": "艾欧",
+    "abilities": [
+      {
+        "name": "wisp_tether",
+        "nameCN": "羁绊"
+      },
+      {
+        "name": "wisp_spirits",
+        "nameCN": "幽魂"
+      },
+      {
+        "name": "wisp_overcharge",
+        "nameCN": "过载"
+      },
+      {
+        "name": "wisp_spirits_in",
+        "nameCN": "拉近幽魂"
+      },
+      {
+        "name": "wisp_spirits_out",
+        "nameCN": "拉远幽魂"
+      },
+      {
+        "name": "wisp_relocate",
+        "nameCN": "降临"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "visage",
+    "nameEN": "Visage",
+    "nameCN": "维萨吉",
+    "abilities": [
+      {
+        "name": "visage_grave_chill",
+        "nameCN": "黄泉颤抖"
+      },
+      {
+        "name": "visage_soul_assumption",
+        "nameCN": "灵魂超度"
+      },
+      {
+        "name": "visage_gravekeepers_cloak",
+        "nameCN": "陵卫斗篷"
+      },
+      {
+        "name": "visage_summon_familiars",
+        "nameCN": "召唤佣兽"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "slark",
+    "nameEN": "Slark",
+    "nameCN": "斯拉克",
+    "abilities": [
+      {
+        "name": "slark_dark_pact",
+        "nameCN": "黑暗契约"
+      },
+      {
+        "name": "slark_pounce",
+        "nameCN": "突袭"
+      },
+      {
+        "name": "slark_essence_shift",
+        "nameCN": "能量转移"
+      },
+      {
+        "name": "slark_shadow_dance",
+        "nameCN": "暗影之舞"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "medusa",
+    "nameEN": "Medusa",
+    "nameCN": "美杜莎",
+    "abilities": [
+      {
+        "name": "medusa_split_shot",
+        "nameCN": "分裂箭"
+      },
+      {
+        "name": "medusa_mystic_snake",
+        "nameCN": "秘术异蛇"
+      },
+      {
+        "name": "medusa_gorgon_grasp",
+        "nameCN": "罗网箭阵"
+      },
+      {
+        "name": "medusa_stone_gaze",
+        "nameCN": "石化凝视"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "troll_warlord",
+    "nameEN": "Troll Warlord",
+    "nameCN": "巨魔战将",
+    "abilities": [
+      {
+        "name": "troll_warlord_whirling_axes_ranged",
+        "nameCN": "旋风飞斧（远程）"
+      },
+      {
+        "name": "troll_warlord_whirling_axes_melee",
+        "nameCN": "旋风飞斧（近战）"
+      },
+      {
+        "name": "troll_warlord_fervor",
+        "nameCN": "热血战魂"
+      },
+      {
+        "name": "troll_warlord_berserkers_rage",
+        "nameCN": "狂战士之怒"
+      },
+      {
+        "name": "troll_warlord_battle_trance",
+        "nameCN": "战斗专注"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "centaur",
+    "nameEN": "Centaur Warrunner",
+    "nameCN": "半人马战行者",
+    "abilities": [
+      {
+        "name": "centaur_hoof_stomp",
+        "nameCN": "马蹄践踏"
+      },
+      {
+        "name": "centaur_double_edge",
+        "nameCN": "双刃剑"
+      },
+      {
+        "name": "centaur_return",
+        "nameCN": "反伤"
+      },
+      {
+        "name": "centaur_stampede",
+        "nameCN": "奔袭冲撞"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "magnataur",
+    "nameEN": "Magnus",
+    "nameCN": "马格纳斯",
+    "abilities": [
+      {
+        "name": "magnataur_shockwave",
+        "nameCN": "震荡波"
+      },
+      {
+        "name": "magnataur_empower",
+        "nameCN": "授予力量"
+      },
+      {
+        "name": "magnataur_skewer",
+        "nameCN": "巨角冲撞"
+      },
+      {
+        "name": "magnataur_reverse_polarity",
+        "nameCN": "两极反转"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "shredder",
+    "nameEN": "Timbersaw",
+    "nameCN": "伐木机",
+    "abilities": [
+      {
+        "name": "shredder_whirling_death",
+        "nameCN": "死亡旋风"
+      },
+      {
+        "name": "shredder_timber_chain",
+        "nameCN": "伐木锯链"
+      },
+      {
+        "name": "shredder_reactive_armor",
+        "nameCN": "活性护甲"
+      },
+      {
+        "name": "shredder_chakram",
+        "nameCN": "锯齿飞轮"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "bristleback",
+    "nameEN": "Bristleback",
+    "nameCN": "钢背兽",
+    "abilities": [
+      {
+        "name": "bristleback_viscous_nasal_goo",
+        "nameCN": "粘稠鼻液"
+      },
+      {
+        "name": "bristleback_quill_spray",
+        "nameCN": "刺针扫射"
+      },
+      {
+        "name": "bristleback_bristleback",
+        "nameCN": "钢毛后背"
+      },
+      {
+        "name": "bristleback_warpath",
+        "nameCN": "战意"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "tusk",
+    "nameEN": "Tusk",
+    "nameCN": "巨牙海民",
+    "abilities": [
+      {
+        "name": "tusk_ice_shards",
+        "nameCN": "寒冰碎片"
+      },
+      {
+        "name": "tusk_snowball",
+        "nameCN": "雪球"
+      },
+      {
+        "name": "tusk_walrus_punch",
+        "nameCN": "海象神拳！"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "skywrath_mage",
+    "nameEN": "Skywrath Mage",
+    "nameCN": "天怒法师",
+    "abilities": [
+      {
+        "name": "skywrath_mage_arcane_bolt",
+        "nameCN": "奥法鹰隼"
+      },
+      {
+        "name": "skywrath_mage_concussive_shot",
+        "nameCN": "震荡光弹"
+      },
+      {
+        "name": "skywrath_mage_ancient_seal",
+        "nameCN": "上古封印"
+      },
+      {
+        "name": "skywrath_mage_mystic_flare",
+        "nameCN": "神秘之耀"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "abaddon",
+    "nameEN": "Abaddon",
+    "nameCN": "亚巴顿",
+    "abilities": [
+      {
+        "name": "abaddon_death_coil",
+        "nameCN": "迷雾缠绕"
+      },
+      {
+        "name": "abaddon_aphotic_shield",
+        "nameCN": "无光之盾"
+      },
+      {
+        "name": "abaddon_frostmourne",
+        "nameCN": "魔霭诅咒"
+      },
+      {
+        "name": "abaddon_borrowed_time",
+        "nameCN": "回光返照"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "elder_titan",
+    "nameEN": "Elder Titan",
+    "nameCN": "上古巨神",
+    "abilities": [
+      {
+        "name": "elder_titan_echo_stomp",
+        "nameCN": "回音重踏"
+      },
+      {
+        "name": "elder_titan_ancestral_spirit",
+        "nameCN": "灵体游魂"
+      },
+      {
+        "name": "elder_titan_natural_order",
+        "nameCN": "自然秩序"
+      },
+      {
+        "name": "elder_titan_earth_splitter",
+        "nameCN": "裂地沟壑"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "legion_commander",
+    "nameEN": "Legion Commander",
+    "nameCN": "军团指挥官",
+    "abilities": [
+      {
+        "name": "legion_commander_overwhelming_odds",
+        "nameCN": "压倒性优势"
+      },
+      {
+        "name": "legion_commander_press_the_attack",
+        "nameCN": "强攻"
+      },
+      {
+        "name": "legion_commander_moment_of_courage",
+        "nameCN": "勇气之霎"
+      },
+      {
+        "name": "legion_commander_duel",
+        "nameCN": "决斗"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "ember_spirit",
+    "nameEN": "Ember Spirit",
+    "nameCN": "灰烬之灵",
+    "abilities": [
+      {
+        "name": "ember_spirit_searing_chains",
+        "nameCN": "炎阳索"
+      },
+      {
+        "name": "ember_spirit_sleight_of_fist",
+        "nameCN": "无影拳"
+      },
+      {
+        "name": "ember_spirit_flame_guard",
+        "nameCN": "烈火罩"
+      },
+      {
+        "name": "ember_spirit_activate_fire_remnant",
+        "nameCN": "激活残焰"
+      },
+      {
+        "name": "ember_spirit_fire_remnant",
+        "nameCN": "残焰"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "earth_spirit",
+    "nameEN": "Earth Spirit",
+    "nameCN": "大地之灵",
+    "abilities": [
+      {
+        "name": "earth_spirit_boulder_smash",
+        "nameCN": "巨石冲击"
+      },
+      {
+        "name": "earth_spirit_rolling_boulder",
+        "nameCN": "巨石翻滚"
+      },
+      {
+        "name": "earth_spirit_geomagnetic_grip",
+        "nameCN": "地磁之握"
+      },
+      {
+        "name": "earth_spirit_magnetize",
+        "nameCN": "磁化"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "terrorblade",
+    "nameEN": "Terrorblade",
+    "nameCN": "恐怖利刃",
+    "abilities": [
+      {
+        "name": "terrorblade_reflection",
+        "nameCN": "倒影"
+      },
+      {
+        "name": "terrorblade_conjure_image",
+        "nameCN": "惑幻"
+      },
+      {
+        "name": "terrorblade_metamorphosis",
+        "nameCN": "魔化"
+      },
+      {
+        "name": "terrorblade_sunder",
+        "nameCN": "魂断"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "phoenix",
+    "nameEN": "Phoenix",
+    "nameCN": "凤凰",
+    "abilities": [
+      {
+        "name": "phoenix_icarus_dive",
+        "nameCN": "凤凰冲击"
+      },
+      {
+        "name": "phoenix_fire_spirits",
+        "nameCN": "烈火精灵"
+      },
+      {
+        "name": "phoenix_sun_ray",
+        "nameCN": "烈日炙烤"
+      },
+      {
+        "name": "phoenix_supernova",
+        "nameCN": "超新星"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "oracle",
+    "nameEN": "Oracle",
+    "nameCN": "神谕者",
+    "abilities": [
+      {
+        "name": "oracle_fortunes_end",
+        "nameCN": "气运之末"
+      },
+      {
+        "name": "oracle_fates_edict",
+        "nameCN": "命运敕令"
+      },
+      {
+        "name": "oracle_purifying_flames",
+        "nameCN": "涤罪之焰"
+      },
+      {
+        "name": "oracle_false_promise",
+        "nameCN": "虚妄之诺"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "techies",
+    "nameEN": "Techies",
+    "nameCN": "工程师",
+    "abilities": [
+      {
+        "name": "techies_sticky_bomb",
+        "nameCN": "粘性炸弹"
+      },
+      {
+        "name": "techies_reactive_tazer",
+        "nameCN": "活性电击"
+      },
+      {
+        "name": "techies_suicide",
+        "nameCN": "爆破起飞！"
+      },
+      {
+        "name": "techies_land_mines",
+        "nameCN": "感应地雷"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "winter_wyvern",
+    "nameEN": "Winter Wyvern",
+    "nameCN": "寒冬飞龙",
+    "abilities": [
+      {
+        "name": "winter_wyvern_arctic_burn",
+        "nameCN": "严寒烧灼"
+      },
+      {
+        "name": "winter_wyvern_splinter_blast",
+        "nameCN": "碎裂冲击"
+      },
+      {
+        "name": "winter_wyvern_cold_embrace",
+        "nameCN": "极寒之拥"
+      },
+      {
+        "name": "winter_wyvern_winters_curse",
+        "nameCN": "寒冬诅咒"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "arc_warden",
+    "nameEN": "Arc Warden",
+    "nameCN": "天穹守望者",
+    "abilities": [
+      {
+        "name": "arc_warden_flux",
+        "nameCN": "乱流"
+      },
+      {
+        "name": "arc_warden_magnetic_field",
+        "nameCN": "磁场"
+      },
+      {
+        "name": "arc_warden_spark_wraith",
+        "nameCN": "闪光幽魂"
+      },
+      {
+        "name": "arc_warden_tempest_double",
+        "nameCN": "风暴双雄"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "abyssal_underlord",
+    "nameEN": "Underlord",
+    "nameCN": "孽主",
+    "abilities": [
+      {
+        "name": "abyssal_underlord_firestorm",
+        "nameCN": "火焰风暴"
+      },
+      {
+        "name": "abyssal_underlord_pit_of_malice",
+        "nameCN": "怨念深渊"
+      },
+      {
+        "name": "abyssal_underlord_atrophy_aura",
+        "nameCN": "衰退光环"
+      },
+      {
+        "name": "abyssal_underlord_dark_portal",
+        "nameCN": "恶魔之扉"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "monkey_king",
+    "nameEN": "Monkey King",
+    "nameCN": "齐天大圣",
+    "abilities": [
+      {
+        "name": "monkey_king_boundless_strike",
+        "nameCN": "棒击大地"
+      },
+      {
+        "name": "monkey_king_tree_dance",
+        "nameCN": "丛林之舞"
+      },
+      {
+        "name": "monkey_king_jingu_mastery",
+        "nameCN": "如意棒法"
+      },
+      {
+        "name": "monkey_king_wukongs_command",
+        "nameCN": "猴子猴孙"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "pangolier",
+    "nameEN": "Pangolier",
+    "nameCN": "石鳞剑士",
+    "abilities": [
+      {
+        "name": "pangolier_swashbuckle",
+        "nameCN": "虚张声势"
+      },
+      {
+        "name": "pangolier_shield_crash",
+        "nameCN": "甲盾冲击"
+      },
+      {
+        "name": "pangolier_lucky_shot",
+        "nameCN": "幸运一击"
+      },
+      {
+        "name": "pangolier_gyroshell",
+        "nameCN": "地雷滚滚"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "dark_willow",
+    "nameEN": "Dark Willow",
+    "nameCN": "邪影芳灵",
+    "abilities": [
+      {
+        "name": "dark_willow_bramble_maze",
+        "nameCN": "荆棘迷宫"
+      },
+      {
+        "name": "dark_willow_shadow_realm",
+        "nameCN": "暗影之境"
+      },
+      {
+        "name": "dark_willow_cursed_crown",
+        "nameCN": "诅咒王冠"
+      },
+      {
+        "name": "dark_willow_bedlam",
+        "nameCN": "作祟"
+      },
+      {
+        "name": "dark_willow_terrorize",
+        "nameCN": "恐吓"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "grimstroke",
+    "nameEN": "Grimstroke",
+    "nameCN": "天涯墨客",
+    "abilities": [
+      {
+        "name": "grimstroke_dark_artistry",
+        "nameCN": "命运之笔"
+      },
+      {
+        "name": "grimstroke_ink_creature",
+        "nameCN": "幻影之拥"
+      },
+      {
+        "name": "grimstroke_spirit_walk",
+        "nameCN": "墨涌"
+      },
+      {
+        "name": "grimstroke_soul_chain",
+        "nameCN": "缚魂"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "name": "mars",
+    "nameEN": "Mars",
+    "nameCN": "玛尔斯",
+    "abilities": [
+      {
+        "name": "mars_spear",
+        "nameCN": "战神迅矛"
+      },
+      {
+        "name": "mars_gods_rebuke",
+        "nameCN": "神之谴戒"
+      },
+      {
+        "name": "mars_bulwark",
+        "nameCN": "护身甲盾"
+      },
+      {
+        "name": "mars_arena_of_blood",
+        "nameCN": "热血竞技场"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "void_spirit",
+    "nameEN": "Void Spirit",
+    "nameCN": "虚无之灵",
+    "abilities": [
+      {
+        "name": "void_spirit_aether_remnant",
+        "nameCN": "残阴"
+      },
+      {
+        "name": "void_spirit_dissimilate",
+        "nameCN": "异化"
+      },
+      {
+        "name": "void_spirit_resonant_pulse",
+        "nameCN": "共鸣脉冲"
+      },
+      {
+        "name": "void_spirit_astral_step",
+        "nameCN": "太虚之径"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "name": "snapfire",
+    "nameEN": "Snapfire",
+    "nameCN": "电炎绝手",
+    "abilities": [
+      {
+        "name": "snapfire_scatterblast",
+        "nameCN": "电光石火"
+      },
+      {
+        "name": "snapfire_firesnap_cookie",
+        "nameCN": "龙炎饼干"
+      },
+      {
+        "name": "snapfire_lil_shredder",
+        "nameCN": "霹雳铁手"
+      },
+      {
+        "name": "snapfire_mortimer_kisses",
+        "nameCN": "蜥蜴绝吻"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "hoodwink",
+    "nameEN": "Hoodwink",
+    "nameCN": "森海飞霞",
+    "abilities": [
+      {
+        "name": "hoodwink_acorn_shot",
+        "nameCN": "爆栗出击"
+      },
+      {
+        "name": "hoodwink_bushwhack",
+        "nameCN": "野地奇袭"
+      },
+      {
+        "name": "hoodwink_scurry",
+        "nameCN": "密林奔走"
+      },
+      {
+        "name": "hoodwink_sharpshooter",
+        "nameCN": "一箭穿心"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "dawnbreaker",
+    "nameEN": "Dawnbreaker",
+    "nameCN": "破晓辰星",
+    "abilities": [
+      {
+        "name": "dawnbreaker_fire_wreath",
+        "nameCN": "星破天惊"
+      },
+      {
+        "name": "dawnbreaker_celestial_hammer",
+        "nameCN": "上界重锤"
+      },
+      {
+        "name": "dawnbreaker_luminosity",
+        "nameCN": "熠熠生辉"
+      },
+      {
+        "name": "dawnbreaker_solar_guardian",
+        "nameCN": "天光现世"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "marci",
+    "nameEN": "Marci",
+    "nameCN": "玛西",
+    "abilities": [
+      {
+        "name": "marci_grapple",
+        "nameCN": "过肩摔"
+      },
+      {
+        "name": "marci_companion_run",
+        "nameCN": "回身踢"
+      },
+      {
+        "name": "marci_unleash",
+        "nameCN": "怒拳破"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "name": "primal_beast",
+    "nameEN": "Primal Beast",
+    "nameCN": "獸",
+    "abilities": [
+      {
+        "name": "primal_beast_onslaught",
+        "nameCN": "突"
+      },
+      {
+        "name": "primal_beast_trample",
+        "nameCN": "踏"
+      },
+      {
+        "name": "primal_beast_uproar",
+        "nameCN": "咤"
+      },
+      {
+        "name": "primal_beast_pulverize",
+        "nameCN": "捶"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "name": "muerta",
+    "nameEN": "Muerta",
+    "nameCN": "琼英碧灵",
+    "abilities": [
+      {
+        "name": "muerta_dead_shot",
+        "nameCN": "弹无虚发"
+      },
+      {
+        "name": "muerta_the_calling",
+        "nameCN": "唤魂"
+      },
+      {
+        "name": "muerta_gunslinger",
+        "nameCN": "神枪在手"
+      },
+      {
+        "name": "muerta_pierce_the_veil",
+        "nameCN": "越界"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "ringmaster",
+    "nameEN": "Ringmaster",
+    "nameCN": "百戏大王",
+    "abilities": [
+      {
+        "name": "ringmaster_tame_the_beasts",
+        "nameCN": "驯兽术"
+      },
+      {
+        "name": "ringmaster_the_box",
+        "nameCN": "逃生技"
+      },
+      {
+        "name": "ringmaster_impalement",
+        "nameCN": "尖刀戏"
+      },
+      {
+        "name": "ringmaster_wheel",
+        "nameCN": "奇观轮"
+      },
+      {
+        "name": "ringmaster_funhouse_mirror",
+        "nameCN": "哈哈镜"
+      },
+      {
+        "name": "ringmaster_strongman_tonic",
+        "nameCN": "强力水"
+      },
+      {
+        "name": "ringmaster_whoopee_cushion",
+        "nameCN": "整蛊垫"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "name": "kez",
+    "nameEN": "Kez",
+    "nameCN": "凯",
+    "abilities": [
+      {
+        "name": "kez_echo_slash",
+        "nameCN": "回音重斩"
+      },
+      {
+        "name": "kez_grappling_claw",
+        "nameCN": "制敌爪钩"
+      },
+      {
+        "name": "kez_kazurai_katana",
+        "nameCN": "影武长刀"
+      },
+      {
+        "name": "kez_raptor_dance",
+        "nameCN": "猛禽之舞"
+      },
+      {
+        "name": "kez_falcon_rush",
+        "nameCN": "天隼冲击"
+      },
+      {
+        "name": "kez_talon_toss",
+        "nameCN": "利爪飞掷"
+      },
+      {
+        "name": "kez_shodo_sai",
+        "nameCN": "翔影之钗"
+      },
+      {
+        "name": "kez_ravens_veil",
+        "nameCN": "渡鸦之纱"
+      }
+    ]
+  }
+]

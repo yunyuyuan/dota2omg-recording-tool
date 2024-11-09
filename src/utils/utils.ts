@@ -1,0 +1,1 @@
+export const getImgUrl = (name: string) => `/data-images/${name}.png`
