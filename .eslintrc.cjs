@@ -10,7 +10,9 @@ const config = {
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended-type-checked",
-    "plugin:@typescript-eslint/stylistic-type-checked"
+    "plugin:@typescript-eslint/stylistic-type-checked",
+    "plugin:react/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     "@typescript-eslint/array-type": "off",
@@ -36,7 +38,9 @@ const config = {
           "attributes": false
         }
       }
-    ]
+    ],
+    "@next/next/no-img-element": "off",
+    "react/react-in-jsx-scope": "off",
   }
 }
 module.exports = config;

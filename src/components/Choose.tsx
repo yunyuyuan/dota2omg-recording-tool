@@ -1,52 +1,59 @@
 import { CloseSharp } from "@mui/icons-material";
 import { Button, Dialog, DialogContent, DialogTitle, IconButton, Tooltip } from "@mui/material";
 import { useState } from "react";
-import { useStore } from "~/utils/store";
+import { useDataStore } from "~/utils/dataStore";
 import { type Hero } from "~/utils/type";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Row = ({ hero, search }: { hero: Hero, search: string }) => {
-  const { currentChoose, updateItemRow } = useStore();
+  const { currentChoose, updateItemRow } = useDataStore();
 
   const heroMatch = [hero.name, hero.nameCN, hero.nameEN].some(i => i.includes(search));
   const abilitiesMatch = hero.abilities.filter(i => [i.name, i.nameCN].some(j => j.includes(search))).map(i => i.name);
 
   return (
-    (heroMatch || abilitiesMatch.length > 0) && currentChoose ? (
-      <div className="flex items-center gap-1">
-        <Tooltip title={hero.name}>
-          <img
-            className="h-20"
+    <div className="items-center gap-1" style={{
+      display: (heroMatch || abilitiesMatch.length > 0) && currentChoose ? 'flex' : 'none'
+    }}>
+      <Tooltip title={hero.name}>
+        <div>
+          <LazyLoadImage
+            height={80}
+            width={128}
             style={{
-              cursor: currentChoose.abilityIndex < 0 ? 'pointer' : 'not-allowed',
+              cursor: currentChoose && currentChoose.abilityIndex < 0 ? 'pointer' : 'not-allowed',
               filter: `grayscale(${heroMatch ? 0 : 1})`
             }}
             src={`/data-images/${hero.name}.png`} alt="hero"
-            onClick={() => currentChoose.abilityIndex < 0 && updateItemRow(hero)}
+            onClick={() => currentChoose && currentChoose.abilityIndex < 0 && updateItemRow(hero)}
           />
-        </Tooltip>
-        {
-          hero.abilities.map(ability => (
-            <Tooltip key={ability.name} title={ability.name}>
-              <img
-                className="h-16"
+        </div>
+      </Tooltip>
+      {
+        hero.abilities.map(ability => (
+          <Tooltip key={ability.name} title={ability.name}>
+            <div>
+              <LazyLoadImage
+                height={64}
+                width={64}
                 style={{
-                  cursor: currentChoose.abilityIndex >= 0 ? 'pointer' : 'not-allowed',
+                  cursor: currentChoose && currentChoose.abilityIndex >= 0 ? 'pointer' : 'not-allowed',
                   filter: `grayscale(${abilitiesMatch.includes(ability.name) ? 0 : 1})`
                 }}
                 src={`/data-images/${ability.name}.png`}
                 alt="ability"
-                onClick={() => currentChoose.abilityIndex >= 0 && updateItemRow(ability)}
+                onClick={() => currentChoose && currentChoose.abilityIndex >= 0 && updateItemRow(ability)}
               />
-            </Tooltip>
-          ))
-        }
-      </div>
-    ) : null
+            </div>
+          </Tooltip>
+        ))
+      }
+    </div>
   )
 }
 
 const ChooseDialog = () => {
-  const { heroList, currentChoose, setCurrentChoose } = useStore();
+  const { heroList, currentChoose, setCurrentChoose } = useDataStore();
 
   const [search, setSearch] = useState('');
 
@@ -56,14 +63,13 @@ const ChooseDialog = () => {
     <Dialog
       open={!!currentChoose}
       fullWidth
+      keepMounted
       maxWidth={false}
       onClose={onClose}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle>
-        选择
-      </DialogTitle>
+      <DialogTitle>Select</DialogTitle>
       <IconButton
         aria-label="close"
         onClick={onClose}
@@ -82,11 +88,11 @@ const ChooseDialog = () => {
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
-            placeholder="搜索"
-            className="w-64 p-2 border border-gray-300 rounded"
+            placeholder="Search... (Support English/中文)"
+            className="w-80 rounded border border-gray-300 p-2"
           />
         </div>
-        <div className="flex flex-wrap gap-12">
+        <div className="flex flex-wrap justify-evenly gap-12">
           {
             heroList.map(hero => (
               <Row key={hero.id} hero={hero} search={search} />
@@ -94,8 +100,8 @@ const ChooseDialog = () => {
           }
         </div>
       </DialogContent>
-      <div className="flex justify-center my-3">
-        <Button size="large" onClick={onClose}>取消</Button>
+      <div className="my-3 flex justify-center">
+        <Button variant='contained' size="large" onClick={onClose}>Close</Button>
       </div>
     </Dialog>
   )

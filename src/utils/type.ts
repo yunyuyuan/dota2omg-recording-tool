@@ -41,4 +41,14 @@ export const ConfigRange = {
   roundedAbility: [0, 12]
 } as Record<string, [number, number]>
 
+export const ConfigNames = {
+  size: 'Size',
+  gapX: 'Horizontal Gap',
+  gapY: 'Vertical Gap',
+  paddingX: 'Horizontal Padding',
+  paddingY: 'Vertical Padding',
+  roundedHero: 'Hero Rounded',
+  roundedAbility: 'Ability Rounded'
+} as Record<string, string>
+
 export type Choose = {heroIndex: number, abilityIndex: number}

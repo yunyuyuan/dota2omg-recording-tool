@@ -1,22 +1,22 @@
-import { DefaultConfig, type Hero, type Config, type Ability, type Choose } from '~/utils/type'
+import { DefaultConfig, type Hero, type Ability, type Choose } from '~/utils/type'
 import { create } from 'zustand'
 import axios from 'axios'
 
 type State = {
-  config: Config
   heroList: Hero[]
-  itemRows: {hero: Hero, abilities: Ability[]}[]
+  itemRows: { hero: Hero, abilities: Ability[] }[]
   currentChoose: Choose | null
 }
 
 type Actions = {
-  updateConfig: (config: Config) => void
   initHeroList: () => void
   setCurrentChoose: (choose: Choose | null) => void
   updateItemRow: (v: Hero | Ability) => void
 }
 
-export const useStore = create<State & Actions>()((set, get) => ({
+const STORAGE_KEY = 'dota2omg-recording-tool-item-rows'
+
+export const useDataStore = create<State & Actions>()((set, get) => ({
   config: DefaultConfig,
   heroList: [],
   itemRows: [],
@@ -25,12 +25,21 @@ export const useStore = create<State & Actions>()((set, get) => ({
     void axios.get('/data.json').then((res) => {
       if (res.status === 200) {
         const data = res.data as Hero[]
+        let itemRows = data.slice(0, 5).map(hero => ({
+          hero: hero,
+          abilities: hero.abilities.slice(0, 4)
+        }))
+        if (typeof window !== 'undefined') {
+          const stored = localStorage.getItem(STORAGE_KEY)
+          if (stored) {
+            try {
+              itemRows = JSON.parse(stored) as { hero: Hero, abilities: Ability[] }[]
+            } catch {}
+          }
+        }
         set({
           heroList: data,
-          itemRows: data.slice(0, 5).map(hero => ({
-            hero: hero,
-            abilities: hero.abilities.slice(0, 4)
-          }))
+          itemRows
         })
       }
     })
@@ -58,13 +67,11 @@ export const useStore = create<State & Actions>()((set, get) => ({
           }
           return i
         })
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(itemRows))
         return { itemRows, currentChoose: null }
       } else {
         return { currentChoose: null }
       }
     })
-  },
-  updateConfig: (config) => {
-    set({ config })
   },
 }))

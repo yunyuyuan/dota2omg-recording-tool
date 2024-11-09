@@ -208,6 +208,10 @@
       {
         "name": "mirana_leap",
         "nameCN": "跳跃"
+      },
+      {
+        "name": "mirana_invis",
+        "nameCN": "月之暗面"
       }
     ]
   },
@@ -968,6 +972,10 @@
       {
         "name": "faceless_void_time_lock",
         "nameCN": "时间锁定"
+      },
+      {
+        "name": "faceless_void_chronosphere",
+        "nameCN": "时间结界"
       }
     ]
   },
@@ -980,6 +988,10 @@
       {
         "name": "skeleton_king_hellfire_blast",
         "nameCN": "冥火爆击"
+      },
+      {
+        "name": "skeleton_king_spectral_blade",
+        "nameCN": "幽魂之剑"
       },
       {
         "name": "skeleton_king_mortal_strike",
@@ -1262,6 +1274,10 @@
     "nameCN": "噬魂鬼",
     "abilities": [
       {
+        "name": "life_stealer_rage",
+        "nameCN": "狂暴"
+      },
+      {
         "name": "life_stealer_open_wounds",
         "nameCN": "撕裂伤口"
       },
@@ -1504,6 +1520,10 @@
       {
         "name": "jakiro_ice_path",
         "nameCN": "冰封路径"
+      },
+      {
+        "name": "jakiro_liquid_fire",
+        "nameCN": "液态火"
       },
       {
         "name": "jakiro_macropyre",
@@ -2142,6 +2162,10 @@
         "nameCN": "诱捕"
       },
       {
+        "name": "naga_siren_rip_tide",
+        "nameCN": "激流"
+      },
+      {
         "name": "naga_siren_song_of_the_siren",
         "nameCN": "海妖之歌"
       }
@@ -2412,6 +2436,10 @@
       {
         "name": "tusk_snowball",
         "nameCN": "雪球"
+      },
+      {
+        "name": "tusk_drinking_buddies",
+        "nameCN": "酒友"
       },
       {
         "name": "tusk_walrus_punch",
@@ -2968,6 +2996,10 @@
       {
         "name": "marci_companion_run",
         "nameCN": "回身踢"
+      },
+      {
+        "name": "marci_guardian",
+        "nameCN": "健体术"
       },
       {
         "name": "marci_unleash",

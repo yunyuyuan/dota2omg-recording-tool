@@ -1,36 +1,33 @@
-import { Slider } from "@mui/material";
-import { useStore } from "~/utils/store";
-import { ConfigRange } from "~/utils/type";
+import { Button, Slider } from "@mui/material";
+import { useEffect } from "react";
+import { useConfigStore } from "~/utils/configStore";
+import { ConfigNames, ConfigRange } from "~/utils/type";
 
 const ConfigSettings = () => {
-  const { config, updateConfig } = useStore();
-
-  const update = (key: string, value: number) => {
-    updateConfig({
-      ...config,
-      [key]: value
-    })
-  }
+  const { config, initConfig, resetConfig, updateConfig } = useConfigStore();
+  
+  useEffect(() => initConfig(), [initConfig])
   
   return (
-    <div className="flex flex-wrap gap-6">
+    <div className="grid grid-cols-4 items-center gap-6 pt-8">
     {
       Object.entries(config).map(([key, value]) => (
         <div key={key} className="flex flex-col gap-2">
-          <span>{key}</span>
+          <span>{ConfigNames[key]}</span>
           <div className="w-40">
             <Slider
               value={value}
               min={ConfigRange[key]![0]}
               max={ConfigRange[key]![1]}
               valueLabelDisplay="auto"
-              onChange={(_, value) => update(key, value as number)}
+              onChange={(_, value) => updateConfig(key, value as number)}
               aria-labelledby="input-slider"
             />
           </div>
         </div>
       ))
     }
+    <Button variant="contained" onClick={resetConfig}>Reset Config</Button>
     </div>
   )
 }
