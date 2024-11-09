@@ -9,7 +9,7 @@ const ConfigSettings = () => {
   useEffect(() => initConfig(), [initConfig])
   
   return (
-    <div className="grid grid-cols-4 items-center gap-6 pt-8">
+    <div className="grid grid-cols-4 items-center gap-4 pt-8">
     {
       Object.entries(config).map(([key, value]) => (
         <div key={key} className="flex flex-col gap-2">

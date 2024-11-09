@@ -4,9 +4,9 @@ import { useDataStore } from "~/utils/dataStore";
 import domtoimage from 'dom-to-image';
 import { type Choose } from "~/utils/type";
 import { useConfigStore } from "~/utils/configStore";
-import { useNotifications } from "~/utils/utils";
+import { getImgUrl, useNotifications } from "~/utils/utils";
 
-export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choose) => void }) {
+export default function ItemRows({ useCDN, onOpenChoose }: { useCDN?: boolean, onOpenChoose: (choose: Choose) => void }) {
   const { notify } = useNotifications()
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -33,7 +33,9 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
 
   return (
     <div className="mb-6 flex flex-col items-center gap-6">
-      <div className="border border-dashed border-gray-700">
+      <div className="border border-dashed" style={{
+        borderColor: (config.paddingY || config.paddingX) ? '#666' : 'transparent',
+      }}>
         <div ref={containerRef} className="flex flex-col" style={{
           padding: `${config.paddingY}px ${config.paddingX}px`,
           gap: `${config.gapY}px`
@@ -47,7 +49,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                 <img
                   className="h-full cursor-pointer transition-all hover:scale-105"
                   style={{ borderRadius: `${config.roundedHero}px` }}
-                  src={`/data-images/${i.hero.name}.png`}
+                  src={getImgUrl(useCDN, 'heroes', i.hero.name)}
                   alt="hero"
                   onClick={() => onOpenChoose({ heroIndex: index1, abilityIndex: -1 })}
                 />
@@ -57,7 +59,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                       className="h-full cursor-pointer transition-all hover:scale-105"
                       style={{ borderRadius: `${config.roundedAbility}px` }}
                       key={i.name + index2}
-                      src={`/data-images/${i.name}.png`}
+                      src={getImgUrl(useCDN, 'abilities', i.name)}
                       alt="ability"
                       onClick={() => onOpenChoose({ heroIndex: index1, abilityIndex: index2 })}
                     />

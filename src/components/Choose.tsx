@@ -4,8 +4,9 @@ import { useState } from "react";
 import { useDataStore } from "~/utils/dataStore";
 import { type Hero } from "~/utils/type";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { getImgUrl } from "~/utils/utils";
 
-const Row = ({ hero, search }: { hero: Hero, search: string }) => {
+const Row = ({ hero, search, useCDN }: { hero: Hero, search: string, useCDN?: boolean }) => {
   const { currentChoose, updateItemRow } = useDataStore();
 
   const heroMatch = [hero.name, hero.nameCN, hero.nameEN].some(i => i.includes(search));
@@ -15,7 +16,7 @@ const Row = ({ hero, search }: { hero: Hero, search: string }) => {
     <div className="items-center gap-1" style={{
       display: (heroMatch || abilitiesMatch.length > 0) && currentChoose ? 'flex' : 'none'
     }}>
-      <Tooltip title={hero.name}>
+      <Tooltip title={<span className="text-base">{hero.name}</span>}>
         <div>
           <LazyLoadImage
             height={80}
@@ -24,14 +25,15 @@ const Row = ({ hero, search }: { hero: Hero, search: string }) => {
               cursor: currentChoose && currentChoose.abilityIndex < 0 ? 'pointer' : 'not-allowed',
               filter: `grayscale(${heroMatch ? 0 : 1})`
             }}
-            src={`/data-images/${hero.name}.png`} alt="hero"
+            src={getImgUrl(useCDN, 'heroes', hero.name)}
+            alt="hero"
             onClick={() => currentChoose && currentChoose.abilityIndex < 0 && updateItemRow(hero)}
           />
         </div>
       </Tooltip>
       {
         hero.abilities.map(ability => (
-          <Tooltip key={ability.name} title={ability.name}>
+          <Tooltip key={ability.name} title={<span className="text-base">{ability.name}</span>}>
             <div>
               <LazyLoadImage
                 height={64}
@@ -40,7 +42,7 @@ const Row = ({ hero, search }: { hero: Hero, search: string }) => {
                   cursor: currentChoose && currentChoose.abilityIndex >= 0 ? 'pointer' : 'not-allowed',
                   filter: `grayscale(${abilitiesMatch.includes(ability.name) ? 0 : 1})`
                 }}
-                src={`/data-images/${ability.name}.png`}
+                src={getImgUrl(useCDN, 'abilities', ability.name)}
                 alt="ability"
                 onClick={() => currentChoose && currentChoose.abilityIndex >= 0 && updateItemRow(ability)}
               />
@@ -52,7 +54,7 @@ const Row = ({ hero, search }: { hero: Hero, search: string }) => {
   )
 }
 
-const ChooseDialog = () => {
+const ChooseDialog = ({ useCDN }:{ useCDN?: boolean }) => {
   const { heroList, currentChoose, setCurrentChoose } = useDataStore();
 
   const [search, setSearch] = useState('');
@@ -95,7 +97,7 @@ const ChooseDialog = () => {
         <div className="flex flex-wrap justify-evenly gap-12">
           {
             heroList.map(hero => (
-              <Row key={hero.id} hero={hero} search={search} />
+              <Row key={hero.id} hero={hero} search={search} useCDN={useCDN} />
             ))
           }
         </div>

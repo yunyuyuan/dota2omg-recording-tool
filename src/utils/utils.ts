@@ -9,3 +9,10 @@ export const useNotifications = () => {
 
   return { notify };
 }
+
+export const getImgUrl = (isCDN: boolean | undefined, type: 'heroes' | 'abilities', name: string) => {
+  if (isCDN) {
+    return `https://cdn.akamai.steamstatic.com/apps/dota2/images/dota_react/${type}/${name}.png`
+  }
+  return `/data-images/${name}.png`
+}

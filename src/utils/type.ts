@@ -43,8 +43,8 @@ export const ConfigRange = {
 
 export const ConfigNames = {
   size: 'Size',
-  gapX: 'Horizontal Gap',
-  gapY: 'Vertical Gap',
+  gapX: 'Horizontal Spacing',
+  gapY: 'Vertical Spacing',
   paddingX: 'Horizontal Padding',
   paddingY: 'Vertical Padding',
   roundedHero: 'Hero Rounded',
