@@ -1,6 +1,6 @@
-import { CloseSharp } from "@mui/icons-material";
-import { Button, Dialog, DialogContent, DialogTitle, IconButton, Tooltip } from "@mui/material";
-import { useState } from "react";
+import { CloseSharp, HelpOutline } from "@mui/icons-material";
+import { Button, Dialog, DialogContent, DialogTitle, IconButton, Switch, Tooltip } from "@mui/material";
+import { useEffect, useRef, useState } from "react";
 import { useDataStore } from "~/utils/dataStore";
 import { type Hero } from "~/utils/type";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -21,6 +21,7 @@ const Row = ({ hero, search, useCDN }: { hero: Hero, search: string, useCDN?: bo
           <LazyLoadImage
             height={80}
             width={128}
+            className="transition-all hover:scale-105"
             style={{
               cursor: currentChoose && currentChoose.abilityIndex < 0 ? 'pointer' : 'not-allowed',
               filter: `grayscale(${heroMatch ? 0 : 1})`
@@ -38,6 +39,7 @@ const Row = ({ hero, search, useCDN }: { hero: Hero, search: string, useCDN?: bo
               <LazyLoadImage
                 height={64}
                 width={64}
+                className="transition-all hover:scale-105"
                 style={{
                   cursor: currentChoose && currentChoose.abilityIndex >= 0 ? 'pointer' : 'not-allowed',
                   filter: `grayscale(${abilitiesMatch.includes(ability.name) ? 0 : 1})`
@@ -54,10 +56,35 @@ const Row = ({ hero, search, useCDN }: { hero: Hero, search: string, useCDN?: bo
   )
 }
 
-const ChooseDialog = ({ useCDN }:{ useCDN?: boolean }) => {
+const STORAGE_KEY = 'dota2omg-recording-tool-use-cdn'
+
+const ChooseDialog = () => {
   const { heroList, currentChoose, setCurrentChoose } = useDataStore();
 
   const [search, setSearch] = useState('');
+  const [useCDN, setUseCDN] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if (!!currentChoose && inputRef.current) {
+        console.log('focus')
+        inputRef.current.focus();
+      }
+    });
+    return () => clearTimeout(timeout);
+  }, [currentChoose]);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setUseCDN(window.localStorage.getItem(STORAGE_KEY) === 'true');
+    }
+  }, [])
+  
+  const saveUseCDN = (useCDN: boolean) => {
+    setUseCDN(useCDN);
+    window.localStorage.setItem(STORAGE_KEY, useCDN ? 'true' : 'false');
+  }
 
   const onClose = () => setCurrentChoose(null);
 
@@ -68,8 +95,6 @@ const ChooseDialog = ({ useCDN }:{ useCDN?: boolean }) => {
       keepMounted
       maxWidth={false}
       onClose={onClose}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description"
     >
       <DialogTitle>Select</DialogTitle>
       <IconButton
@@ -85,14 +110,25 @@ const ChooseDialog = ({ useCDN }:{ useCDN?: boolean }) => {
         <CloseSharp />
       </IconButton>
       <DialogContent>
-        <div className="mb-5 flex justify-center">
+        <div className="mb-5 flex items-center justify-between">
           <input
+            ref={inputRef}
             type="text"
             value={search}
             onChange={e => setSearch(e.target.value)}
             placeholder="Search... (Support English/中文)"
             className="w-80 rounded border border-gray-300 p-2"
           />
+          <div className="my-5 flex items-center text-[#555]">
+            <Switch size="small" checked={useCDN} onChange={(e) => saveUseCDN(e.target.checked)} />
+            <span className="text-sm">Use Steam CDN</span>
+            <Tooltip 
+              title={<span className="text-base">Use SteamCDN to load images faster, but it may fail due to frequent requests.</span>}
+              placement="top"
+            >
+              <HelpOutline fontSize="small" color="inherit" className="ml-1" />
+            </Tooltip>
+          </div>
         </div>
         <div className="flex flex-wrap justify-evenly gap-12">
           {

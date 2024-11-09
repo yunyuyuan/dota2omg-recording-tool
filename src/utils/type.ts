@@ -24,7 +24,7 @@ export type Config = {
 export const DefaultConfig: Config = {
   size: 64,
   gapX: 2,
-  gapY: 2,
+  gapY: 4,
   paddingX: 0,
   paddingY: 0,
   roundedHero: 12,

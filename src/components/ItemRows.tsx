@@ -6,7 +6,7 @@ import { type Choose } from "~/utils/type";
 import { useConfigStore } from "~/utils/configStore";
 import { getImgUrl, useNotifications } from "~/utils/utils";
 
-export default function ItemRows({ useCDN, onOpenChoose }: { useCDN?: boolean, onOpenChoose: (choose: Choose) => void }) {
+export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choose) => void }) {
   const { notify } = useNotifications()
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -21,12 +21,12 @@ export default function ItemRows({ useCDN, onOpenChoose }: { useCDN?: boolean, o
         height: containerRef.current.scrollHeight
       }).then((dataUrl) => {
         const link = document.createElement('a');
-        link.download = 'export.png';
+        link.download = `dota2omg-export-${Date.now()}.png`;
         link.href = dataUrl;
         link.click();
         notify('Export successful!', 'success');
       }).catch(err => {
-        notify(`Export failed: ${(err as string).toString()}`, 'error');
+        notify(`Export failed: ${JSON.stringify(err)}`, 'error');
       })
     }
   }
@@ -49,7 +49,7 @@ export default function ItemRows({ useCDN, onOpenChoose }: { useCDN?: boolean, o
                 <img
                   className="h-full cursor-pointer transition-all hover:scale-105"
                   style={{ borderRadius: `${config.roundedHero}px` }}
-                  src={getImgUrl(useCDN, 'heroes', i.hero.name)}
+                  src={getImgUrl(false, 'heroes', i.hero.name)}
                   alt="hero"
                   onClick={() => onOpenChoose({ heroIndex: index1, abilityIndex: -1 })}
                 />
@@ -59,7 +59,7 @@ export default function ItemRows({ useCDN, onOpenChoose }: { useCDN?: boolean, o
                       className="h-full cursor-pointer transition-all hover:scale-105"
                       style={{ borderRadius: `${config.roundedAbility}px` }}
                       key={i.name + index2}
-                      src={getImgUrl(useCDN, 'abilities', i.name)}
+                      src={getImgUrl(false, 'abilities', i.name)}
                       alt="ability"
                       onClick={() => onOpenChoose({ heroIndex: index1, abilityIndex: index2 })}
                     />
