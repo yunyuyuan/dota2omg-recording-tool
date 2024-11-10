@@ -4,8 +4,8 @@ import ItemRows from "~/components/ItemRows";
 import ConfigSettings from "~/components/Config";
 import ChooseDialog from "~/components/Choose";
 import { useDataStore } from "~/utils/dataStore";
-import { Divider, IconButton, Switch, Tooltip } from "@mui/material";
-import { ExpandCircleDownOutlined, GitHub, HelpOutline } from "@mui/icons-material";
+import { Divider, IconButton } from "@mui/material";
+import { ExpandCircleDownOutlined, GitHub } from "@mui/icons-material";
 
 
 export default function HomePage() {
