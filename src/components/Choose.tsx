@@ -34,7 +34,7 @@ const Row = ({ hero, search, useCDN }: { hero: Hero, search: string, useCDN?: bo
       </Tooltip>
       {
         hero.abilities.map(ability => (
-          <Tooltip key={ability.name} title={<span className="text-base">{ability.name}</span>}>
+          <Tooltip key={ability.id} title={<span className="text-base">{ability.name}</span>}>
             <div>
               <LazyLoadImage
                 height={64}

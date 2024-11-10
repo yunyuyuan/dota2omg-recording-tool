@@ -38,7 +38,9 @@ export const useDataStore = create<State & Actions>()((set, get) => ({
           if (stored) {
             try {
               itemRows = JSON.parse(stored) as { hero: Hero, abilities: Ability[] }[]
-            } catch {}
+            } catch {
+              localStorage.removeItem(STORAGE_KEY)
+            }
           }
         }
         set({

@@ -21,7 +21,9 @@ export const useConfigStore = create<State & Actions>()((set) => ({
     if (stored) {
       try {
         set({ config: JSON.parse(stored) as Config })
-      } catch {}
+      } catch {
+        localStorage.removeItem(STORAGE_KEY)
+      }
     }
   },
   resetConfig: () => {
