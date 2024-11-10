@@ -5,11 +5,13 @@ import domtoimage from 'dom-to-image';
 import { type Choose } from "~/utils/type";
 import { useConfigStore } from "~/utils/configStore";
 import { getImgUrl, useNotifications } from "~/utils/utils";
-import { EmojiObjectsOutlined } from "@mui/icons-material";
+import { CloudDownloadOutlined, EmojiObjectsOutlined, FileUploadOutlined } from "@mui/icons-material";
+import ImportMatchDialog from "./ImportMatch";
 
 export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choose) => void }) {
   const { notify } = useNotifications()
 
+  const [showImport, setShowImport] = useState(false);
   const [currentDragType, setCurrentDragType] = useState<'hero' | 'ability'>('hero');
   const [currentDragIndex, setCurrentDragIndex] = useState<number[]>([]);
   const [currentDragOverIndex, setCurrentDragOverIndex] = useState<number[]>([]);
@@ -112,7 +114,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                     <img
                       className="h-full cursor-pointer transition-all hover:scale-105"
                       style={{ borderRadius: `${config.roundedAbility}px` }}
-                      key={i.name + index2}
+                      key={i.id.toString() + index2}
                       src={getImgUrl(false, 'abilities', i.name)}
                       alt="ability"
                       onClick={() => onOpenChoose({ heroIndex: index1, abilityIndex: index2 })}
@@ -128,7 +130,17 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
           }
         </div>
       </div>
-      <Button variant="contained" size="large" onClick={onExport}>Export</Button>
+      <div className="flex items-center justify-center gap-4">
+        <Button className="flex items-center gap-2" variant="contained" size="large" onClick={() => setShowImport(true)}>
+          <CloudDownloadOutlined fontSize="small" />
+          Import Match
+        </Button>
+        <Button className="flex items-center gap-2" variant="contained" size="large" onClick={onExport}>
+          <FileUploadOutlined fontSize="small" />
+          Export
+        </Button>
+      </div>
+      <ImportMatchDialog open={showImport} onClose={() => setShowImport(false)} />
     </div>
   )
 }

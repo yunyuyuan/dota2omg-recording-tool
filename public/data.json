@@ -7,19 +7,23 @@
     "abilities": [
       {
         "name": "antimage_mana_break",
-        "nameCN": "法力损毁"
+        "nameCN": "法力损毁",
+        "id": 5003
       },
       {
         "name": "antimage_blink",
-        "nameCN": "闪烁"
+        "nameCN": "闪烁",
+        "id": 5004
       },
       {
         "name": "antimage_counterspell",
-        "nameCN": "法术反制"
+        "nameCN": "法术反制",
+        "id": 7314
       },
       {
         "name": "antimage_mana_void",
-        "nameCN": "法力虚空"
+        "nameCN": "法力虚空",
+        "id": 5006
       }
     ]
   },
@@ -31,19 +35,23 @@
     "abilities": [
       {
         "name": "axe_berserkers_call",
-        "nameCN": "狂战士之吼"
+        "nameCN": "狂战士之吼",
+        "id": 5007
       },
       {
         "name": "axe_battle_hunger",
-        "nameCN": "战斗饥渴"
+        "nameCN": "战斗饥渴",
+        "id": 5008
       },
       {
         "name": "axe_counter_helix",
-        "nameCN": "反击螺旋"
+        "nameCN": "反击螺旋",
+        "id": 5009
       },
       {
         "name": "axe_culling_blade",
-        "nameCN": "淘汰之刃"
+        "nameCN": "淘汰之刃",
+        "id": 5010
       }
     ]
   },
@@ -55,19 +63,23 @@
     "abilities": [
       {
         "name": "bane_enfeeble",
-        "nameCN": "虚弱"
+        "nameCN": "虚弱",
+        "id": 5012
       },
       {
         "name": "bane_brain_sap",
-        "nameCN": "蚀脑"
+        "nameCN": "蚀脑",
+        "id": 5011
       },
       {
         "name": "bane_nightmare",
-        "nameCN": "噩梦"
+        "nameCN": "噩梦",
+        "id": 5014
       },
       {
         "name": "bane_fiends_grip",
-        "nameCN": "魔爪"
+        "nameCN": "魔爪",
+        "id": 5013
       }
     ]
   },
@@ -79,19 +91,23 @@
     "abilities": [
       {
         "name": "bloodseeker_bloodrage",
-        "nameCN": "血怒"
+        "nameCN": "血怒",
+        "id": 5015
       },
       {
         "name": "bloodseeker_blood_bath",
-        "nameCN": "血祭"
+        "nameCN": "血祭",
+        "id": 5016
       },
       {
         "name": "bloodseeker_thirst",
-        "nameCN": "焦渴"
+        "nameCN": "焦渴",
+        "id": 5017
       },
       {
         "name": "bloodseeker_rupture",
-        "nameCN": "割裂"
+        "nameCN": "割裂",
+        "id": 5018
       }
     ]
   },
@@ -103,19 +119,23 @@
     "abilities": [
       {
         "name": "crystal_maiden_crystal_nova",
-        "nameCN": "冰霜新星"
+        "nameCN": "冰霜新星",
+        "id": 5126
       },
       {
         "name": "crystal_maiden_frostbite",
-        "nameCN": "冰封禁制"
+        "nameCN": "冰封禁制",
+        "id": 5127
       },
       {
         "name": "crystal_maiden_brilliance_aura",
-        "nameCN": "奥术光环"
+        "nameCN": "奥术光环",
+        "id": 5128
       },
       {
         "name": "crystal_maiden_freezing_field",
-        "nameCN": "极寒领域"
+        "nameCN": "极寒领域",
+        "id": 5129
       }
     ]
   },
@@ -127,19 +147,23 @@
     "abilities": [
       {
         "name": "drow_ranger_frost_arrows",
-        "nameCN": "霜冻之箭"
+        "nameCN": "霜冻之箭",
+        "id": 5019
       },
       {
         "name": "drow_ranger_wave_of_silence",
-        "nameCN": "狂风"
+        "nameCN": "狂风",
+        "id": 5632
       },
       {
         "name": "drow_ranger_multishot",
-        "nameCN": "数箭齐发"
+        "nameCN": "数箭齐发",
+        "id": 343
       },
       {
         "name": "drow_ranger_marksmanship",
-        "nameCN": "射手天赋"
+        "nameCN": "射手天赋",
+        "id": 5022
       }
     ]
   },
@@ -151,19 +175,23 @@
     "abilities": [
       {
         "name": "earthshaker_fissure",
-        "nameCN": "沟壑"
+        "nameCN": "沟壑",
+        "id": 5023
       },
       {
         "name": "earthshaker_enchant_totem",
-        "nameCN": "强化图腾"
+        "nameCN": "强化图腾",
+        "id": 5024
       },
       {
         "name": "earthshaker_aftershock",
-        "nameCN": "余震"
+        "nameCN": "余震",
+        "id": 5025
       },
       {
         "name": "earthshaker_echo_slam",
-        "nameCN": "回音击"
+        "nameCN": "回音击",
+        "id": 5026
       }
     ]
   },
@@ -175,19 +203,23 @@
     "abilities": [
       {
         "name": "juggernaut_blade_fury",
-        "nameCN": "剑刃风暴"
+        "nameCN": "剑刃风暴",
+        "id": 5028
       },
       {
         "name": "juggernaut_healing_ward",
-        "nameCN": "治疗守卫"
+        "nameCN": "治疗守卫",
+        "id": 5029
       },
       {
         "name": "juggernaut_blade_dance",
-        "nameCN": "剑舞"
+        "nameCN": "剑舞",
+        "id": 5027
       },
       {
         "name": "juggernaut_omni_slash",
-        "nameCN": "无敌斩"
+        "nameCN": "无敌斩",
+        "id": 5030
       }
     ]
   },
@@ -199,19 +231,23 @@
     "abilities": [
       {
         "name": "mirana_starfall",
-        "nameCN": "群星风暴"
+        "nameCN": "群星风暴",
+        "id": 5051
       },
       {
         "name": "mirana_arrow",
-        "nameCN": "月神之箭"
+        "nameCN": "月神之箭",
+        "id": 5048
       },
       {
         "name": "mirana_leap",
-        "nameCN": "跳跃"
+        "nameCN": "跳跃",
+        "id": 5050
       },
       {
         "name": "mirana_invis",
-        "nameCN": "月之暗面"
+        "nameCN": "月之暗面",
+        "id": 1213
       }
     ]
   },
@@ -223,19 +259,23 @@
     "abilities": [
       {
         "name": "nevermore_shadowraze1",
-        "nameCN": "毁灭阴影"
+        "nameCN": "毁灭阴影",
+        "id": 5059
       },
       {
         "name": "nevermore_frenzy",
-        "nameCN": "灵魂盛宴"
+        "nameCN": "灵魂盛宴",
+        "id": 1216
       },
       {
         "name": "nevermore_dark_lord",
-        "nameCN": "魔王降临"
+        "nameCN": "魔王降临",
+        "id": 5063
       },
       {
         "name": "nevermore_requiem",
-        "nameCN": "魂之挽歌"
+        "nameCN": "魂之挽歌",
+        "id": 5064
       }
     ]
   },
@@ -247,27 +287,33 @@
     "abilities": [
       {
         "name": "morphling_waveform",
-        "nameCN": "波浪形态"
+        "nameCN": "波浪形态",
+        "id": 5052
       },
       {
         "name": "morphling_adaptive_strike_agi",
-        "nameCN": "变体打击（敏捷）"
+        "nameCN": "变体打击（敏捷）",
+        "id": 5053
       },
       {
         "name": "morphling_adaptive_strike_str",
-        "nameCN": "变体打击（力量）"
+        "nameCN": "变体打击（力量）",
+        "id": 7000
       },
       {
         "name": "morphling_morph_agi",
-        "nameCN": "属性变换（敏捷获取）"
+        "nameCN": "属性变换（敏捷获取）",
+        "id": 5055
       },
       {
         "name": "morphling_morph_str",
-        "nameCN": "属性变换（力量获取）"
+        "nameCN": "属性变换（力量获取）",
+        "id": 5056
       },
       {
         "name": "morphling_replicate",
-        "nameCN": "变形"
+        "nameCN": "变形",
+        "id": 5057
       }
     ]
   },
@@ -279,19 +325,23 @@
     "abilities": [
       {
         "name": "phantom_lancer_spirit_lance",
-        "nameCN": "灵魂之矛"
+        "nameCN": "灵魂之矛",
+        "id": 5065
       },
       {
         "name": "phantom_lancer_doppelwalk",
-        "nameCN": "神行百变"
+        "nameCN": "神行百变",
+        "id": 5066
       },
       {
         "name": "phantom_lancer_phantom_edge",
-        "nameCN": "幻影冲锋"
+        "nameCN": "幻影冲锋",
+        "id": 1221
       },
       {
         "name": "phantom_lancer_juxtapose",
-        "nameCN": "并列"
+        "nameCN": "并列",
+        "id": 5067
       }
     ]
   },
@@ -303,19 +353,23 @@
     "abilities": [
       {
         "name": "puck_illusory_orb",
-        "nameCN": "幻象法球"
+        "nameCN": "幻象法球",
+        "id": 5069
       },
       {
         "name": "puck_waning_rift",
-        "nameCN": "新月之痕"
+        "nameCN": "新月之痕",
+        "id": 5071
       },
       {
         "name": "puck_phase_shift",
-        "nameCN": "相位转移"
+        "nameCN": "相位转移",
+        "id": 5072
       },
       {
         "name": "puck_dream_coil",
-        "nameCN": "梦境缠绕"
+        "nameCN": "梦境缠绕",
+        "id": 5073
       }
     ]
   },
@@ -327,23 +381,28 @@
     "abilities": [
       {
         "name": "pudge_meat_hook",
-        "nameCN": "肉钩"
+        "nameCN": "肉钩",
+        "id": 5075
       },
       {
         "name": "pudge_rot",
-        "nameCN": "腐烂"
+        "nameCN": "腐烂",
+        "id": 5076
       },
       {
         "name": "pudge_flesh_heap",
-        "nameCN": "肉盾"
+        "nameCN": "肉盾",
+        "id": 5074
       },
       {
         "name": "pudge_eject",
-        "nameCN": "倾吐"
+        "nameCN": "倾吐",
+        "id": 322
       },
       {
         "name": "pudge_dismember",
-        "nameCN": "肢解"
+        "nameCN": "肢解",
+        "id": 5077
       }
     ]
   },
@@ -355,19 +414,23 @@
     "abilities": [
       {
         "name": "razor_plasma_field",
-        "nameCN": "等离子场"
+        "nameCN": "等离子场",
+        "id": 5082
       },
       {
         "name": "razor_static_link",
-        "nameCN": "静电连接"
+        "nameCN": "静电连接",
+        "id": 5083
       },
       {
         "name": "razor_storm_surge",
-        "nameCN": "风暴涌动"
+        "nameCN": "风暴涌动",
+        "id": 1224
       },
       {
         "name": "razor_eye_of_the_storm",
-        "nameCN": "风暴之眼"
+        "nameCN": "风暴之眼",
+        "id": 5085
       }
     ]
   },
@@ -379,19 +442,23 @@
     "abilities": [
       {
         "name": "sandking_burrowstrike",
-        "nameCN": "掘地穿刺"
+        "nameCN": "掘地穿刺",
+        "id": 5102
       },
       {
         "name": "sandking_sand_storm",
-        "nameCN": "沙尘暴"
+        "nameCN": "沙尘暴",
+        "id": 5103
       },
       {
         "name": "sandking_scorpion_strike",
-        "nameCN": "尾刺"
+        "nameCN": "尾刺",
+        "id": 1229
       },
       {
         "name": "sandking_epicenter",
-        "nameCN": "地震"
+        "nameCN": "地震",
+        "id": 5105
       }
     ]
   },
@@ -403,19 +470,23 @@
     "abilities": [
       {
         "name": "storm_spirit_static_remnant",
-        "nameCN": "残影"
+        "nameCN": "残影",
+        "id": 5098
       },
       {
         "name": "storm_spirit_electric_vortex",
-        "nameCN": "电子涡流"
+        "nameCN": "电子涡流",
+        "id": 5099
       },
       {
         "name": "storm_spirit_overload",
-        "nameCN": "超负荷"
+        "nameCN": "超负荷",
+        "id": 5100
       },
       {
         "name": "storm_spirit_ball_lightning",
-        "nameCN": "球状闪电"
+        "nameCN": "球状闪电",
+        "id": 5101
       }
     ]
   },
@@ -427,19 +498,23 @@
     "abilities": [
       {
         "name": "sven_storm_bolt",
-        "nameCN": "风暴之拳"
+        "nameCN": "风暴之拳",
+        "id": 5094
       },
       {
         "name": "sven_great_cleave",
-        "nameCN": "巨力挥舞"
+        "nameCN": "巨力挥舞",
+        "id": 5095
       },
       {
         "name": "sven_warcry",
-        "nameCN": "战吼"
+        "nameCN": "战吼",
+        "id": 5096
       },
       {
         "name": "sven_gods_strength",
-        "nameCN": "神之力量"
+        "nameCN": "神之力量",
+        "id": 5097
       }
     ]
   },
@@ -451,23 +526,28 @@
     "abilities": [
       {
         "name": "tiny_avalanche",
-        "nameCN": "山崩"
+        "nameCN": "山崩",
+        "id": 5106
       },
       {
         "name": "tiny_toss",
-        "nameCN": "投掷"
+        "nameCN": "投掷",
+        "id": 5107
       },
       {
         "name": "tiny_tree_grab",
-        "nameCN": "抓树"
+        "nameCN": "抓树",
+        "id": 5108
       },
       {
         "name": "tiny_grow",
-        "nameCN": "长大"
+        "nameCN": "长大",
+        "id": 5109
       },
       {
         "name": "tiny_toss_tree",
-        "nameCN": "扔树"
+        "nameCN": "扔树",
+        "id": 6937
       }
     ]
   },
@@ -479,19 +559,23 @@
     "abilities": [
       {
         "name": "vengefulspirit_magic_missile",
-        "nameCN": "魔法箭"
+        "nameCN": "魔法箭",
+        "id": 5122
       },
       {
         "name": "vengefulspirit_wave_of_terror",
-        "nameCN": "恐怖波动"
+        "nameCN": "恐怖波动",
+        "id": 5124
       },
       {
         "name": "vengefulspirit_command_aura",
-        "nameCN": "复仇光环"
+        "nameCN": "复仇光环",
+        "id": 5123
       },
       {
         "name": "vengefulspirit_nether_swap",
-        "nameCN": "移形换位"
+        "nameCN": "移形换位",
+        "id": 5125
       }
     ]
   },
@@ -503,19 +587,23 @@
     "abilities": [
       {
         "name": "windrunner_shackleshot",
-        "nameCN": "束缚击"
+        "nameCN": "束缚击",
+        "id": 5130
       },
       {
         "name": "windrunner_powershot",
-        "nameCN": "强力击"
+        "nameCN": "强力击",
+        "id": 5131
       },
       {
         "name": "windrunner_windrun",
-        "nameCN": "风行"
+        "nameCN": "风行",
+        "id": 5132
       },
       {
         "name": "windrunner_focusfire",
-        "nameCN": "集中火力"
+        "nameCN": "集中火力",
+        "id": 5133
       }
     ]
   },
@@ -527,19 +615,23 @@
     "abilities": [
       {
         "name": "zuus_arc_lightning",
-        "nameCN": "弧形闪电"
+        "nameCN": "弧形闪电",
+        "id": 5110
       },
       {
         "name": "zuus_lightning_bolt",
-        "nameCN": "雷击"
+        "nameCN": "雷击",
+        "id": 5111
       },
       {
         "name": "zuus_heavenly_jump",
-        "nameCN": "神圣一跳"
+        "nameCN": "神圣一跳",
+        "id": 641
       },
       {
         "name": "zuus_thundergods_wrath",
-        "nameCN": "雷神之怒"
+        "nameCN": "雷神之怒",
+        "id": 5113
       }
     ]
   },
@@ -551,19 +643,23 @@
     "abilities": [
       {
         "name": "kunkka_torrent",
-        "nameCN": "洪流"
+        "nameCN": "洪流",
+        "id": 5031
       },
       {
         "name": "kunkka_tidebringer",
-        "nameCN": "潮汐使者"
+        "nameCN": "潮汐使者",
+        "id": 5032
       },
       {
         "name": "kunkka_x_marks_the_spot",
-        "nameCN": "X标记"
+        "nameCN": "X标记",
+        "id": 5033
       },
       {
         "name": "kunkka_ghostship",
-        "nameCN": "幽灵船"
+        "nameCN": "幽灵船",
+        "id": 5035
       }
     ]
   },
@@ -575,19 +671,23 @@
     "abilities": [
       {
         "name": "lina_dragon_slave",
-        "nameCN": "龙破斩"
+        "nameCN": "龙破斩",
+        "id": 5040
       },
       {
         "name": "lina_light_strike_array",
-        "nameCN": "光击阵"
+        "nameCN": "光击阵",
+        "id": 5041
       },
       {
         "name": "lina_fiery_soul",
-        "nameCN": "炽魂"
+        "nameCN": "炽魂",
+        "id": 5042
       },
       {
         "name": "lina_laguna_blade",
-        "nameCN": "神灭斩"
+        "nameCN": "神灭斩",
+        "id": 5043
       }
     ]
   },
@@ -599,19 +699,23 @@
     "abilities": [
       {
         "name": "lich_frost_nova",
-        "nameCN": "寒霜爆发"
+        "nameCN": "寒霜爆发",
+        "id": 5134
       },
       {
         "name": "lich_frost_shield",
-        "nameCN": "冰霜魔盾"
+        "nameCN": "冰霜魔盾",
+        "id": 5136
       },
       {
         "name": "lich_sinister_gaze",
-        "nameCN": "阴邪凝视"
+        "nameCN": "阴邪凝视",
+        "id": 7325
       },
       {
         "name": "lich_chain_frost",
-        "nameCN": "连环霜冻"
+        "nameCN": "连环霜冻",
+        "id": 5137
       }
     ]
   },
@@ -623,19 +727,23 @@
     "abilities": [
       {
         "name": "lion_impale",
-        "nameCN": "裂地尖刺"
+        "nameCN": "裂地尖刺",
+        "id": 5044
       },
       {
         "name": "lion_voodoo",
-        "nameCN": "妖术"
+        "nameCN": "妖术",
+        "id": 5045
       },
       {
         "name": "lion_mana_drain",
-        "nameCN": "法力吸取"
+        "nameCN": "法力吸取",
+        "id": 5046
       },
       {
         "name": "lion_finger_of_death",
-        "nameCN": "死亡之指"
+        "nameCN": "死亡之指",
+        "id": 5047
       }
     ]
   },
@@ -647,19 +755,23 @@
     "abilities": [
       {
         "name": "shadow_shaman_ether_shock",
-        "nameCN": "苍穹震击"
+        "nameCN": "苍穹震击",
+        "id": 5078
       },
       {
         "name": "shadow_shaman_voodoo",
-        "nameCN": "妖术"
+        "nameCN": "妖术",
+        "id": 5079
       },
       {
         "name": "shadow_shaman_shackles",
-        "nameCN": "枷锁"
+        "nameCN": "枷锁",
+        "id": 5080
       },
       {
         "name": "shadow_shaman_mass_serpent_ward",
-        "nameCN": "群蛇守卫"
+        "nameCN": "群蛇守卫",
+        "id": 5081
       }
     ]
   },
@@ -671,19 +783,23 @@
     "abilities": [
       {
         "name": "slardar_sprint",
-        "nameCN": "守卫冲刺"
+        "nameCN": "守卫冲刺",
+        "id": 5114
       },
       {
         "name": "slardar_slithereen_crush",
-        "nameCN": "鱼人碎击"
+        "nameCN": "鱼人碎击",
+        "id": 5115
       },
       {
         "name": "slardar_bash",
-        "nameCN": "深海重击"
+        "nameCN": "深海重击",
+        "id": 5116
       },
       {
         "name": "slardar_amplify_damage",
-        "nameCN": "侵蚀雾霭"
+        "nameCN": "侵蚀雾霭",
+        "id": 5117
       }
     ]
   },
@@ -695,19 +811,23 @@
     "abilities": [
       {
         "name": "tidehunter_gush",
-        "nameCN": "巨浪"
+        "nameCN": "巨浪",
+        "id": 5118
       },
       {
         "name": "tidehunter_kraken_shell",
-        "nameCN": "海妖外壳"
+        "nameCN": "海妖外壳",
+        "id": 5119
       },
       {
         "name": "tidehunter_anchor_smash",
-        "nameCN": "锚击"
+        "nameCN": "锚击",
+        "id": 5120
       },
       {
         "name": "tidehunter_ravage",
-        "nameCN": "毁灭"
+        "nameCN": "毁灭",
+        "id": 5121
       }
     ]
   },
@@ -719,19 +839,23 @@
     "abilities": [
       {
         "name": "witch_doctor_paralyzing_cask",
-        "nameCN": "麻痹药剂"
+        "nameCN": "麻痹药剂",
+        "id": 5138
       },
       {
         "name": "witch_doctor_voodoo_restoration",
-        "nameCN": "巫毒疗法"
+        "nameCN": "巫毒疗法",
+        "id": 5139
       },
       {
         "name": "witch_doctor_maledict",
-        "nameCN": "巫蛊咒术"
+        "nameCN": "巫蛊咒术",
+        "id": 5140
       },
       {
         "name": "witch_doctor_death_ward",
-        "nameCN": "死亡守卫"
+        "nameCN": "死亡守卫",
+        "id": 5141
       }
     ]
   },
@@ -743,19 +867,23 @@
     "abilities": [
       {
         "name": "riki_smoke_screen",
-        "nameCN": "烟幕"
+        "nameCN": "烟幕",
+        "id": 5142
       },
       {
         "name": "riki_blink_strike",
-        "nameCN": "闪烁突袭"
+        "nameCN": "闪烁突袭",
+        "id": 5143
       },
       {
         "name": "riki_tricks_of_the_trade",
-        "nameCN": "绝杀秘技"
+        "nameCN": "绝杀秘技",
+        "id": 5145
       },
       {
         "name": "riki_backstab",
-        "nameCN": "刀光谍影"
+        "nameCN": "刀光谍影",
+        "id": 5144
       }
     ]
   },
@@ -767,19 +895,23 @@
     "abilities": [
       {
         "name": "enigma_malefice",
-        "nameCN": "憎恶"
+        "nameCN": "憎恶",
+        "id": 5146
       },
       {
         "name": "enigma_demonic_conversion",
-        "nameCN": "恶魔召唤"
+        "nameCN": "恶魔召唤",
+        "id": 5147
       },
       {
         "name": "enigma_midnight_pulse",
-        "nameCN": "午夜凋零"
+        "nameCN": "午夜凋零",
+        "id": 5148
       },
       {
         "name": "enigma_black_hole",
-        "nameCN": "黑洞"
+        "nameCN": "黑洞",
+        "id": 5149
       }
     ]
   },
@@ -791,19 +923,23 @@
     "abilities": [
       {
         "name": "tinker_laser",
-        "nameCN": "激光"
+        "nameCN": "激光",
+        "id": 5150
       },
       {
         "name": "tinker_march_of_the_machines",
-        "nameCN": "机械行军"
+        "nameCN": "机械行军",
+        "id": 5152
       },
       {
         "name": "tinker_defense_matrix",
-        "nameCN": "防御矩阵"
+        "nameCN": "防御矩阵",
+        "id": 650
       },
       {
         "name": "tinker_rearm",
-        "nameCN": "再装填"
+        "nameCN": "再装填",
+        "id": 5153
       }
     ]
   },
@@ -815,19 +951,23 @@
     "abilities": [
       {
         "name": "sniper_shrapnel",
-        "nameCN": "榴霰弹"
+        "nameCN": "榴霰弹",
+        "id": 5154
       },
       {
         "name": "sniper_headshot",
-        "nameCN": "爆头"
+        "nameCN": "爆头",
+        "id": 5155
       },
       {
         "name": "sniper_take_aim",
-        "nameCN": "瞄准"
+        "nameCN": "瞄准",
+        "id": 5156
       },
       {
         "name": "sniper_assassinate",
-        "nameCN": "暗杀"
+        "nameCN": "暗杀",
+        "id": 5157
       }
     ]
   },
@@ -839,19 +979,23 @@
     "abilities": [
       {
         "name": "necrolyte_death_pulse",
-        "nameCN": "死亡脉冲"
+        "nameCN": "死亡脉冲",
+        "id": 5158
       },
       {
         "name": "necrolyte_ghost_shroud",
-        "nameCN": "幽魂护罩"
+        "nameCN": "幽魂护罩",
+        "id": 1270
       },
       {
         "name": "necrolyte_heartstopper_aura",
-        "nameCN": "竭心光环"
+        "nameCN": "竭心光环",
+        "id": 5159
       },
       {
         "name": "necrolyte_reapers_scythe",
-        "nameCN": "死神镰刀"
+        "nameCN": "死神镰刀",
+        "id": 5161
       }
     ]
   },
@@ -863,19 +1007,23 @@
     "abilities": [
       {
         "name": "warlock_fatal_bonds",
-        "nameCN": "致命连接"
+        "nameCN": "致命连接",
+        "id": 5162
       },
       {
         "name": "warlock_shadow_word",
-        "nameCN": "暗言术"
+        "nameCN": "暗言术",
+        "id": 5163
       },
       {
         "name": "warlock_upheaval",
-        "nameCN": "剧变"
+        "nameCN": "剧变",
+        "id": 5164
       },
       {
         "name": "warlock_rain_of_chaos",
-        "nameCN": "混乱之祭"
+        "nameCN": "混乱之祭",
+        "id": 5165
       }
     ]
   },
@@ -887,23 +1035,28 @@
     "abilities": [
       {
         "name": "beastmaster_wild_axes",
-        "nameCN": "野性之斧"
+        "nameCN": "野性之斧",
+        "id": 5168
       },
       {
         "name": "beastmaster_call_of_the_wild_boar",
-        "nameCN": "野性呼唤豪猪"
+        "nameCN": "野性呼唤豪猪",
+        "id": 7230
       },
       {
         "name": "beastmaster_call_of_the_wild_hawk",
-        "nameCN": "野性呼唤战鹰"
+        "nameCN": "野性呼唤战鹰",
+        "id": 7231
       },
       {
         "name": "beastmaster_inner_beast",
-        "nameCN": "野性之心"
+        "nameCN": "野性之心",
+        "id": 5172
       },
       {
         "name": "beastmaster_primal_roar",
-        "nameCN": "原始咆哮"
+        "nameCN": "原始咆哮",
+        "id": 5177
       }
     ]
   },
@@ -915,19 +1068,23 @@
     "abilities": [
       {
         "name": "queenofpain_shadow_strike",
-        "nameCN": "暗影突袭"
+        "nameCN": "暗影突袭",
+        "id": 5173
       },
       {
         "name": "queenofpain_blink",
-        "nameCN": "闪烁"
+        "nameCN": "闪烁",
+        "id": 5174
       },
       {
         "name": "queenofpain_scream_of_pain",
-        "nameCN": "痛苦尖叫"
+        "nameCN": "痛苦尖叫",
+        "id": 5175
       },
       {
         "name": "queenofpain_sonic_wave",
-        "nameCN": "超声冲击波"
+        "nameCN": "超声冲击波",
+        "id": 5176
       }
     ]
   },
@@ -939,19 +1096,23 @@
     "abilities": [
       {
         "name": "venomancer_venomous_gale",
-        "nameCN": "瘴气"
+        "nameCN": "瘴气",
+        "id": 5178
       },
       {
         "name": "venomancer_poison_sting",
-        "nameCN": "毒刺"
+        "nameCN": "毒刺",
+        "id": 5179
       },
       {
         "name": "venomancer_plague_ward",
-        "nameCN": "瘟疫守卫"
+        "nameCN": "瘟疫守卫",
+        "id": 5180
       },
       {
         "name": "venomancer_noxious_plague",
-        "nameCN": "恶性瘟疫"
+        "nameCN": "恶性瘟疫",
+        "id": 1105
       }
     ]
   },
@@ -963,19 +1124,23 @@
     "abilities": [
       {
         "name": "faceless_void_time_walk",
-        "nameCN": "时间漫游"
+        "nameCN": "时间漫游",
+        "id": 5182
       },
       {
         "name": "faceless_void_time_dilation",
-        "nameCN": "时间膨胀"
+        "nameCN": "时间膨胀",
+        "id": 5691
       },
       {
         "name": "faceless_void_time_lock",
-        "nameCN": "时间锁定"
+        "nameCN": "时间锁定",
+        "id": 5184
       },
       {
         "name": "faceless_void_chronosphere",
-        "nameCN": "时间结界"
+        "nameCN": "时间结界",
+        "id": 5185
       }
     ]
   },
@@ -987,19 +1152,23 @@
     "abilities": [
       {
         "name": "skeleton_king_hellfire_blast",
-        "nameCN": "冥火爆击"
+        "nameCN": "冥火爆击",
+        "id": 5086
       },
       {
         "name": "skeleton_king_spectral_blade",
-        "nameCN": "幽魂之剑"
+        "nameCN": "幽魂之剑",
+        "id": 1282
       },
       {
         "name": "skeleton_king_mortal_strike",
-        "nameCN": "本命一击"
+        "nameCN": "本命一击",
+        "id": 5088
       },
       {
         "name": "skeleton_king_reincarnation",
-        "nameCN": "绝冥再生"
+        "nameCN": "绝冥再生",
+        "id": 5089
       }
     ]
   },
@@ -1011,19 +1180,23 @@
     "abilities": [
       {
         "name": "death_prophet_carrion_swarm",
-        "nameCN": "地穴虫群"
+        "nameCN": "地穴虫群",
+        "id": 5090
       },
       {
         "name": "death_prophet_silence",
-        "nameCN": "沉默魔法"
+        "nameCN": "沉默魔法",
+        "id": 5091
       },
       {
         "name": "death_prophet_spirit_siphon",
-        "nameCN": "吸魂巫术"
+        "nameCN": "吸魂巫术",
+        "id": 5685
       },
       {
         "name": "death_prophet_exorcism",
-        "nameCN": "驱使恶灵"
+        "nameCN": "驱使恶灵",
+        "id": 5093
       }
     ]
   },
@@ -1035,19 +1208,23 @@
     "abilities": [
       {
         "name": "phantom_assassin_stifling_dagger",
-        "nameCN": "窒碍短匕"
+        "nameCN": "窒碍短匕",
+        "id": 5190
       },
       {
         "name": "phantom_assassin_phantom_strike",
-        "nameCN": "幻影突袭"
+        "nameCN": "幻影突袭",
+        "id": 5191
       },
       {
         "name": "phantom_assassin_blur",
-        "nameCN": "魅影无形"
+        "nameCN": "魅影无形",
+        "id": 5192
       },
       {
         "name": "phantom_assassin_coup_de_grace",
-        "nameCN": "恩赐解脱"
+        "nameCN": "恩赐解脱",
+        "id": 5193
       }
     ]
   },
@@ -1059,19 +1236,23 @@
     "abilities": [
       {
         "name": "pugna_nether_blast",
-        "nameCN": "幽冥爆轰"
+        "nameCN": "幽冥爆轰",
+        "id": 5186
       },
       {
         "name": "pugna_decrepify",
-        "nameCN": "衰老"
+        "nameCN": "衰老",
+        "id": 5187
       },
       {
         "name": "pugna_nether_ward",
-        "nameCN": "幽冥守卫"
+        "nameCN": "幽冥守卫",
+        "id": 5188
       },
       {
         "name": "pugna_life_drain",
-        "nameCN": "生命汲取"
+        "nameCN": "生命汲取",
+        "id": 5189
       }
     ]
   },
@@ -1083,19 +1264,23 @@
     "abilities": [
       {
         "name": "templar_assassin_refraction",
-        "nameCN": "折光"
+        "nameCN": "折光",
+        "id": 5194
       },
       {
         "name": "templar_assassin_meld",
-        "nameCN": "隐匿"
+        "nameCN": "隐匿",
+        "id": 5195
       },
       {
         "name": "templar_assassin_psi_blades",
-        "nameCN": "灵能之刃"
+        "nameCN": "灵能之刃",
+        "id": 5196
       },
       {
         "name": "templar_assassin_psionic_trap",
-        "nameCN": "灵能陷阱"
+        "nameCN": "灵能陷阱",
+        "id": 5197
       }
     ]
   },
@@ -1107,19 +1292,23 @@
     "abilities": [
       {
         "name": "viper_poison_attack",
-        "nameCN": "毒性攻击"
+        "nameCN": "毒性攻击",
+        "id": 5218
       },
       {
         "name": "viper_nethertoxin",
-        "nameCN": "幽冥剧毒"
+        "nameCN": "幽冥剧毒",
+        "id": 5219
       },
       {
         "name": "viper_corrosive_skin",
-        "nameCN": "腐蚀皮肤"
+        "nameCN": "腐蚀皮肤",
+        "id": 5220
       },
       {
         "name": "viper_viper_strike",
-        "nameCN": "蝮蛇突袭"
+        "nameCN": "蝮蛇突袭",
+        "id": 5221
       }
     ]
   },
@@ -1131,19 +1320,23 @@
     "abilities": [
       {
         "name": "luna_lucent_beam",
-        "nameCN": "月光"
+        "nameCN": "月光",
+        "id": 5222
       },
       {
         "name": "luna_lunar_orbit",
-        "nameCN": "环月"
+        "nameCN": "环月",
+        "id": 1462
       },
       {
         "name": "luna_moon_glaive",
-        "nameCN": "月刃"
+        "nameCN": "月刃",
+        "id": 5223
       },
       {
         "name": "luna_eclipse",
-        "nameCN": "月蚀"
+        "nameCN": "月蚀",
+        "id": 5225
       }
     ]
   },
@@ -1155,19 +1348,23 @@
     "abilities": [
       {
         "name": "dragon_knight_breathe_fire",
-        "nameCN": "火焰气息"
+        "nameCN": "火焰气息",
+        "id": 5226
       },
       {
         "name": "dragon_knight_dragon_tail",
-        "nameCN": "神龙摆尾"
+        "nameCN": "神龙摆尾",
+        "id": 5227
       },
       {
         "name": "dragon_knight_dragon_blood",
-        "nameCN": "飞龙之怒"
+        "nameCN": "飞龙之怒",
+        "id": 5228
       },
       {
         "name": "dragon_knight_elder_dragon_form",
-        "nameCN": "古龙形态"
+        "nameCN": "古龙形态",
+        "id": 5229
       }
     ]
   },
@@ -1179,19 +1376,23 @@
     "abilities": [
       {
         "name": "dazzle_poison_touch",
-        "nameCN": "剧毒之触"
+        "nameCN": "剧毒之触",
+        "id": 5233
       },
       {
         "name": "dazzle_shallow_grave",
-        "nameCN": "薄葬"
+        "nameCN": "薄葬",
+        "id": 5234
       },
       {
         "name": "dazzle_shadow_wave",
-        "nameCN": "暗影波"
+        "nameCN": "暗影波",
+        "id": 5235
       },
       {
         "name": "dazzle_bad_juju",
-        "nameCN": "邪能"
+        "nameCN": "邪能",
+        "id": 7304
       }
     ]
   },
@@ -1203,19 +1404,23 @@
     "abilities": [
       {
         "name": "rattletrap_battery_assault",
-        "nameCN": "弹幕冲击"
+        "nameCN": "弹幕冲击",
+        "id": 5237
       },
       {
         "name": "rattletrap_power_cogs",
-        "nameCN": "能量齿轮"
+        "nameCN": "能量齿轮",
+        "id": 5238
       },
       {
         "name": "rattletrap_rocket_flare",
-        "nameCN": "照明火箭"
+        "nameCN": "照明火箭",
+        "id": 5239
       },
       {
         "name": "rattletrap_hookshot",
-        "nameCN": "发射钩爪"
+        "nameCN": "发射钩爪",
+        "id": 5240
       }
     ]
   },
@@ -1227,19 +1432,23 @@
     "abilities": [
       {
         "name": "leshrac_split_earth",
-        "nameCN": "撕裂大地"
+        "nameCN": "撕裂大地",
+        "id": 5241
       },
       {
         "name": "leshrac_diabolic_edict",
-        "nameCN": "恶魔敕令"
+        "nameCN": "恶魔敕令",
+        "id": 5242
       },
       {
         "name": "leshrac_lightning_storm",
-        "nameCN": "闪电风暴"
+        "nameCN": "闪电风暴",
+        "id": 5243
       },
       {
         "name": "leshrac_pulse_nova",
-        "nameCN": "脉冲新星"
+        "nameCN": "脉冲新星",
+        "id": 5244
       }
     ]
   },
@@ -1251,19 +1460,23 @@
     "abilities": [
       {
         "name": "furion_sprout",
-        "nameCN": "发芽"
+        "nameCN": "发芽",
+        "id": 5245
       },
       {
         "name": "furion_teleportation",
-        "nameCN": "传送"
+        "nameCN": "传送",
+        "id": 5246
       },
       {
         "name": "furion_force_of_nature",
-        "nameCN": "自然的呼唤"
+        "nameCN": "自然的呼唤",
+        "id": 5247
       },
       {
         "name": "furion_wrath_of_nature",
-        "nameCN": "自然之怒"
+        "nameCN": "自然之怒",
+        "id": 5248
       }
     ]
   },
@@ -1275,19 +1488,23 @@
     "abilities": [
       {
         "name": "life_stealer_rage",
-        "nameCN": "狂暴"
+        "nameCN": "狂暴",
+        "id": 5249
       },
       {
         "name": "life_stealer_open_wounds",
-        "nameCN": "撕裂伤口"
+        "nameCN": "撕裂伤口",
+        "id": 5251
       },
       {
         "name": "life_stealer_ghoul_frenzy",
-        "nameCN": "尸鬼狂怒"
+        "nameCN": "尸鬼狂怒",
+        "id": 631
       },
       {
         "name": "life_stealer_infest",
-        "nameCN": "感染"
+        "nameCN": "感染",
+        "id": 5252
       }
     ]
   },
@@ -1299,19 +1516,23 @@
     "abilities": [
       {
         "name": "dark_seer_vacuum",
-        "nameCN": "真空"
+        "nameCN": "真空",
+        "id": 5255
       },
       {
         "name": "dark_seer_ion_shell",
-        "nameCN": "离子外壳"
+        "nameCN": "离子外壳",
+        "id": 5256
       },
       {
         "name": "dark_seer_surge",
-        "nameCN": "奔腾"
+        "nameCN": "奔腾",
+        "id": 5257
       },
       {
         "name": "dark_seer_wall_of_replica",
-        "nameCN": "复制之墙"
+        "nameCN": "复制之墙",
+        "id": 5258
       }
     ]
   },
@@ -1323,19 +1544,23 @@
     "abilities": [
       {
         "name": "clinkz_strafe",
-        "nameCN": "扫射"
+        "nameCN": "扫射",
+        "id": 1120
       },
       {
         "name": "clinkz_tar_bomb",
-        "nameCN": "焦油炸弹"
+        "nameCN": "焦油炸弹",
+        "id": 1119
       },
       {
         "name": "clinkz_death_pact",
-        "nameCN": "死亡契约"
+        "nameCN": "死亡契约",
+        "id": 5262
       },
       {
         "name": "clinkz_wind_walk",
-        "nameCN": "骨隐步"
+        "nameCN": "骨隐步",
+        "id": 5261
       }
     ]
   },
@@ -1347,19 +1572,23 @@
     "abilities": [
       {
         "name": "omniknight_purification",
-        "nameCN": "洗礼"
+        "nameCN": "洗礼",
+        "id": 5263
       },
       {
         "name": "omniknight_martyr",
-        "nameCN": "驱逐"
+        "nameCN": "驱逐",
+        "id": 895
       },
       {
         "name": "omniknight_hammer_of_purity",
-        "nameCN": "纯洁之锤"
+        "nameCN": "纯洁之锤",
+        "id": 656
       },
       {
         "name": "omniknight_guardian_angel",
-        "nameCN": "守护天使"
+        "nameCN": "守护天使",
+        "id": 5266
       }
     ]
   },
@@ -1371,19 +1600,23 @@
     "abilities": [
       {
         "name": "enchantress_impetus",
-        "nameCN": "推进"
+        "nameCN": "推进",
+        "id": 5270
       },
       {
         "name": "enchantress_enchant",
-        "nameCN": "魅惑"
+        "nameCN": "魅惑",
+        "id": 5268
       },
       {
         "name": "enchantress_natures_attendants",
-        "nameCN": "自然之助"
+        "nameCN": "自然之助",
+        "id": 5269
       },
       {
         "name": "enchantress_untouchable",
-        "nameCN": "不可侵犯"
+        "nameCN": "不可侵犯",
+        "id": 5267
       }
     ]
   },
@@ -1395,19 +1628,23 @@
     "abilities": [
       {
         "name": "huskar_inner_fire",
-        "nameCN": "心炎"
+        "nameCN": "心炎",
+        "id": 7300
       },
       {
         "name": "huskar_burning_spear",
-        "nameCN": "沸血之矛"
+        "nameCN": "沸血之矛",
+        "id": 5272
       },
       {
         "name": "huskar_berserkers_blood",
-        "nameCN": "狂战士之血"
+        "nameCN": "狂战士之血",
+        "id": 5273
       },
       {
         "name": "huskar_life_break",
-        "nameCN": "牺牲"
+        "nameCN": "牺牲",
+        "id": 5274
       }
     ]
   },
@@ -1419,19 +1656,23 @@
     "abilities": [
       {
         "name": "night_stalker_void",
-        "nameCN": "虚空"
+        "nameCN": "虚空",
+        "id": 5275
       },
       {
         "name": "night_stalker_crippling_fear",
-        "nameCN": "伤残恐惧"
+        "nameCN": "伤残恐惧",
+        "id": 5276
       },
       {
         "name": "night_stalker_hunter_in_the_night",
-        "nameCN": "暗夜猎影"
+        "nameCN": "暗夜猎影",
+        "id": 5277
       },
       {
         "name": "night_stalker_darkness",
-        "nameCN": "黑暗飞升"
+        "nameCN": "黑暗飞升",
+        "id": 5278
       }
     ]
   },
@@ -1443,19 +1684,23 @@
     "abilities": [
       {
         "name": "broodmother_insatiable_hunger",
-        "nameCN": "极度饥渴"
+        "nameCN": "极度饥渴",
+        "id": 5282
       },
       {
         "name": "broodmother_spin_web",
-        "nameCN": "织网"
+        "nameCN": "织网",
+        "id": 5280
       },
       {
         "name": "broodmother_incapacitating_bite",
-        "nameCN": "麻痹之咬"
+        "nameCN": "麻痹之咬",
+        "id": 5281
       },
       {
         "name": "broodmother_spawn_spiderlings",
-        "nameCN": "孵化蜘蛛"
+        "nameCN": "孵化蜘蛛",
+        "id": 5279
       }
     ]
   },
@@ -1467,19 +1712,23 @@
     "abilities": [
       {
         "name": "bounty_hunter_shuriken_toss",
-        "nameCN": "投掷飞镖"
+        "nameCN": "投掷飞镖",
+        "id": 1314
       },
       {
         "name": "bounty_hunter_jinada",
-        "nameCN": "忍术"
+        "nameCN": "忍术",
+        "id": 5286
       },
       {
         "name": "bounty_hunter_wind_walk",
-        "nameCN": "暗影步"
+        "nameCN": "暗影步",
+        "id": 5287
       },
       {
         "name": "bounty_hunter_track",
-        "nameCN": "追踪术"
+        "nameCN": "追踪术",
+        "id": 5288
       }
     ]
   },
@@ -1491,19 +1740,23 @@
     "abilities": [
       {
         "name": "weaver_the_swarm",
-        "nameCN": "虫群"
+        "nameCN": "虫群",
+        "id": 5289
       },
       {
         "name": "weaver_shukuchi",
-        "nameCN": "缩地"
+        "nameCN": "缩地",
+        "id": 5290
       },
       {
         "name": "weaver_geminate_attack",
-        "nameCN": "连击"
+        "nameCN": "连击",
+        "id": 5291
       },
       {
         "name": "weaver_time_lapse",
-        "nameCN": "时光倒流"
+        "nameCN": "时光倒流",
+        "id": 5292
       }
     ]
   },
@@ -1515,19 +1768,23 @@
     "abilities": [
       {
         "name": "jakiro_dual_breath",
-        "nameCN": "冰火交加"
+        "nameCN": "冰火交加",
+        "id": 5297
       },
       {
         "name": "jakiro_ice_path",
-        "nameCN": "冰封路径"
+        "nameCN": "冰封路径",
+        "id": 5298
       },
       {
         "name": "jakiro_liquid_fire",
-        "nameCN": "液态火"
+        "nameCN": "液态火",
+        "id": 5299
       },
       {
         "name": "jakiro_macropyre",
-        "nameCN": "烈焰焚身"
+        "nameCN": "烈焰焚身",
+        "id": 5300
       }
     ]
   },
@@ -1539,19 +1796,23 @@
     "abilities": [
       {
         "name": "batrider_sticky_napalm",
-        "nameCN": "粘性燃油"
+        "nameCN": "粘性燃油",
+        "id": 5320
       },
       {
         "name": "batrider_flamebreak",
-        "nameCN": "烈焰破击"
+        "nameCN": "烈焰破击",
+        "id": 5321
       },
       {
         "name": "batrider_firefly",
-        "nameCN": "火焰飞行"
+        "nameCN": "火焰飞行",
+        "id": 5322
       },
       {
         "name": "batrider_flaming_lasso",
-        "nameCN": "燃烧枷锁"
+        "nameCN": "燃烧枷锁",
+        "id": 5323
       }
     ]
   },
@@ -1563,19 +1824,23 @@
     "abilities": [
       {
         "name": "chen_penitence",
-        "nameCN": "赎罪"
+        "nameCN": "赎罪",
+        "id": 5328
       },
       {
         "name": "chen_holy_persuasion",
-        "nameCN": "神圣劝化"
+        "nameCN": "神圣劝化",
+        "id": 5330
       },
       {
         "name": "chen_divine_favor",
-        "nameCN": "神力恩泽"
+        "nameCN": "神力恩泽",
+        "id": 7306
       },
       {
         "name": "chen_hand_of_god",
-        "nameCN": "上帝之手"
+        "nameCN": "上帝之手",
+        "id": 5331
       }
     ]
   },
@@ -1587,19 +1852,23 @@
     "abilities": [
       {
         "name": "spectre_spectral_dagger",
-        "nameCN": "幽鬼之刃"
+        "nameCN": "幽鬼之刃",
+        "id": 5334
       },
       {
         "name": "spectre_desolate",
-        "nameCN": "荒芜"
+        "nameCN": "荒芜",
+        "id": 5335
       },
       {
         "name": "spectre_dispersion",
-        "nameCN": "折射"
+        "nameCN": "折射",
+        "id": 5336
       },
       {
         "name": "spectre_haunt_single",
-        "nameCN": "如影随形"
+        "nameCN": "如影随形",
+        "id": 7851
       }
     ]
   },
@@ -1611,19 +1880,23 @@
     "abilities": [
       {
         "name": "doom_bringer_devour",
-        "nameCN": "吞噬"
+        "nameCN": "吞噬",
+        "id": 5339
       },
       {
         "name": "doom_bringer_scorched_earth",
-        "nameCN": "焦土"
+        "nameCN": "焦土",
+        "id": 5340
       },
       {
         "name": "doom_bringer_infernal_blade",
-        "nameCN": "阎刃"
+        "nameCN": "阎刃",
+        "id": 5341
       },
       {
         "name": "doom_bringer_doom",
-        "nameCN": "末日"
+        "nameCN": "末日",
+        "id": 5342
       }
     ]
   },
@@ -1635,19 +1908,23 @@
     "abilities": [
       {
         "name": "ancient_apparition_cold_feet",
-        "nameCN": "寒霜之足"
+        "nameCN": "寒霜之足",
+        "id": 5345
       },
       {
         "name": "ancient_apparition_ice_vortex",
-        "nameCN": "冰霜漩涡"
+        "nameCN": "冰霜漩涡",
+        "id": 5346
       },
       {
         "name": "ancient_apparition_chilling_touch",
-        "nameCN": "极寒之触"
+        "nameCN": "极寒之触",
+        "id": 5347
       },
       {
         "name": "ancient_apparition_ice_blast",
-        "nameCN": "冰晶爆轰"
+        "nameCN": "冰晶爆轰",
+        "id": 5348
       }
     ]
   },
@@ -1659,19 +1936,23 @@
     "abilities": [
       {
         "name": "ursa_earthshock",
-        "nameCN": "震撼大地"
+        "nameCN": "震撼大地",
+        "id": 5357
       },
       {
         "name": "ursa_overpower",
-        "nameCN": "超强力量"
+        "nameCN": "超强力量",
+        "id": 5358
       },
       {
         "name": "ursa_fury_swipes",
-        "nameCN": "怒意狂击"
+        "nameCN": "怒意狂击",
+        "id": 5359
       },
       {
         "name": "ursa_enrage",
-        "nameCN": "激怒"
+        "nameCN": "激怒",
+        "id": 5360
       }
     ]
   },
@@ -1683,19 +1964,23 @@
     "abilities": [
       {
         "name": "spirit_breaker_charge_of_darkness",
-        "nameCN": "暗影冲刺"
+        "nameCN": "暗影冲刺",
+        "id": 5353
       },
       {
         "name": "spirit_breaker_bulldoze",
-        "nameCN": "威吓"
+        "nameCN": "威吓",
+        "id": 7301
       },
       {
         "name": "spirit_breaker_greater_bash",
-        "nameCN": "巨力重击"
+        "nameCN": "巨力重击",
+        "id": 5355
       },
       {
         "name": "spirit_breaker_nether_strike",
-        "nameCN": "幽冥一击"
+        "nameCN": "幽冥一击",
+        "id": 5356
       }
     ]
   },
@@ -1707,19 +1992,23 @@
     "abilities": [
       {
         "name": "gyrocopter_rocket_barrage",
-        "nameCN": "火箭弹幕"
+        "nameCN": "火箭弹幕",
+        "id": 5361
       },
       {
         "name": "gyrocopter_homing_missile",
-        "nameCN": "追踪导弹"
+        "nameCN": "追踪导弹",
+        "id": 5362
       },
       {
         "name": "gyrocopter_flak_cannon",
-        "nameCN": "高射火炮"
+        "nameCN": "高射火炮",
+        "id": 5363
       },
       {
         "name": "gyrocopter_call_down",
-        "nameCN": "召唤飞弹"
+        "nameCN": "召唤飞弹",
+        "id": 5364
       }
     ]
   },
@@ -1731,19 +2020,23 @@
     "abilities": [
       {
         "name": "alchemist_acid_spray",
-        "nameCN": "酸性喷雾"
+        "nameCN": "酸性喷雾",
+        "id": 5365
       },
       {
         "name": "alchemist_unstable_concoction",
-        "nameCN": "不稳定化合物"
+        "nameCN": "不稳定化合物",
+        "id": 5366
       },
       {
         "name": "alchemist_corrosive_weaponry",
-        "nameCN": "腐蚀兵械"
+        "nameCN": "腐蚀兵械",
+        "id": 1116
       },
       {
         "name": "alchemist_chemical_rage",
-        "nameCN": "化学狂暴"
+        "nameCN": "化学狂暴",
+        "id": 5369
       }
     ]
   },
@@ -1755,59 +2048,73 @@
     "abilities": [
       {
         "name": "invoker_quas",
-        "nameCN": "冰"
+        "nameCN": "冰",
+        "id": 5370
       },
       {
         "name": "invoker_wex",
-        "nameCN": "雷"
+        "nameCN": "雷",
+        "id": 5371
       },
       {
         "name": "invoker_exort",
-        "nameCN": "火"
+        "nameCN": "火",
+        "id": 5372
       },
       {
         "name": "invoker_invoke",
-        "nameCN": "元素祈唤"
+        "nameCN": "元素祈唤",
+        "id": 5375
       },
       {
         "name": "invoker_cold_snap",
-        "nameCN": "急速冷却"
+        "nameCN": "急速冷却",
+        "id": 5376
       },
       {
         "name": "invoker_ghost_walk",
-        "nameCN": "幽灵漫步"
+        "nameCN": "幽灵漫步",
+        "id": 5381
       },
       {
         "name": "invoker_tornado",
-        "nameCN": "强袭飓风"
+        "nameCN": "强袭飓风",
+        "id": 5382
       },
       {
         "name": "invoker_emp",
-        "nameCN": "电磁脉冲"
+        "nameCN": "电磁脉冲",
+        "id": 5383
       },
       {
         "name": "invoker_alacrity",
-        "nameCN": "灵动迅捷"
+        "nameCN": "灵动迅捷",
+        "id": 5384
       },
       {
         "name": "invoker_chaos_meteor",
-        "nameCN": "混沌陨石"
+        "nameCN": "混沌陨石",
+        "id": 5385
       },
       {
         "name": "invoker_sun_strike",
-        "nameCN": "阳炎冲击"
+        "nameCN": "阳炎冲击",
+        "id": 5386
       },
       {
         "name": "invoker_forge_spirit",
-        "nameCN": "熔炉精灵"
+        "nameCN": "熔炉精灵",
+        "id": 5387
       },
       {
         "name": "invoker_ice_wall",
-        "nameCN": "寒冰之墙"
+        "nameCN": "寒冰之墙",
+        "id": 5389
       },
       {
         "name": "invoker_deafening_blast",
-        "nameCN": "超震声波"
+        "nameCN": "超震声波",
+        "id": 5390
       }
     ]
   },
@@ -1819,19 +2126,23 @@
     "abilities": [
       {
         "name": "silencer_curse_of_the_silent",
-        "nameCN": "奥术诅咒"
+        "nameCN": "奥术诅咒",
+        "id": 5377
       },
       {
         "name": "silencer_glaives_of_wisdom",
-        "nameCN": "智慧之刃"
+        "nameCN": "智慧之刃",
+        "id": 5378
       },
       {
         "name": "silencer_last_word",
-        "nameCN": "遗言"
+        "nameCN": "遗言",
+        "id": 5379
       },
       {
         "name": "silencer_global_silence",
-        "nameCN": "全领域静默"
+        "nameCN": "全领域静默",
+        "id": 5380
       }
     ]
   },
@@ -1843,19 +2154,23 @@
     "abilities": [
       {
         "name": "obsidian_destroyer_arcane_orb",
-        "nameCN": "奥术天球"
+        "nameCN": "奥术天球",
+        "id": 5391
       },
       {
         "name": "obsidian_destroyer_astral_imprisonment",
-        "nameCN": "星体禁锢"
+        "nameCN": "星体禁锢",
+        "id": 5392
       },
       {
         "name": "obsidian_destroyer_equilibrium",
-        "nameCN": "精华变迁"
+        "nameCN": "精华变迁",
+        "id": 5684
       },
       {
         "name": "obsidian_destroyer_sanity_eclipse",
-        "nameCN": "神智之蚀"
+        "nameCN": "神智之蚀",
+        "id": 5394
       }
     ]
   },
@@ -1867,19 +2182,23 @@
     "abilities": [
       {
         "name": "lycan_summon_wolves",
-        "nameCN": "召狼"
+        "nameCN": "召狼",
+        "id": 5395
       },
       {
         "name": "lycan_howl",
-        "nameCN": "嗥叫"
+        "nameCN": "嗥叫",
+        "id": 5396
       },
       {
         "name": "lycan_feral_impulse",
-        "nameCN": "野性驱使"
+        "nameCN": "野性驱使",
+        "id": 5397
       },
       {
         "name": "lycan_shapeshift",
-        "nameCN": "变身"
+        "nameCN": "变身",
+        "id": 5398
       }
     ]
   },
@@ -1891,19 +2210,23 @@
     "abilities": [
       {
         "name": "brewmaster_thunder_clap",
-        "nameCN": "雷霆一击"
+        "nameCN": "雷霆一击",
+        "id": 5400
       },
       {
         "name": "brewmaster_cinder_brew",
-        "nameCN": "余烬佳酿"
+        "nameCN": "余烬佳酿",
+        "id": 7310
       },
       {
         "name": "brewmaster_drunken_brawler",
-        "nameCN": "醉拳"
+        "nameCN": "醉拳",
+        "id": 5402
       },
       {
         "name": "brewmaster_primal_split",
-        "nameCN": "元素分离"
+        "nameCN": "元素分离",
+        "id": 5403
       }
     ]
   },
@@ -1915,19 +2238,23 @@
     "abilities": [
       {
         "name": "shadow_demon_disruption",
-        "nameCN": "崩裂禁锢"
+        "nameCN": "崩裂禁锢",
+        "id": 5421
       },
       {
         "name": "shadow_demon_disseminate",
-        "nameCN": "散播"
+        "nameCN": "散播",
+        "id": 1001
       },
       {
         "name": "shadow_demon_shadow_poison",
-        "nameCN": "暗影剧毒"
+        "nameCN": "暗影剧毒",
+        "id": 5423
       },
       {
         "name": "shadow_demon_demonic_purge",
-        "nameCN": "邪恶净化"
+        "nameCN": "邪恶净化",
+        "id": 5425
       }
     ]
   },
@@ -1939,19 +2266,23 @@
     "abilities": [
       {
         "name": "lone_druid_spirit_bear",
-        "nameCN": "熊灵伙伴"
+        "nameCN": "熊灵伙伴",
+        "id": 1342
       },
       {
         "name": "lone_druid_spirit_link",
-        "nameCN": "灵魂链接"
+        "nameCN": "灵魂链接",
+        "id": 7309
       },
       {
         "name": "lone_druid_savage_roar",
-        "nameCN": "野蛮咆哮"
+        "nameCN": "野蛮咆哮",
+        "id": 5414
       },
       {
         "name": "lone_druid_true_form",
-        "nameCN": "真熊形态"
+        "nameCN": "真熊形态",
+        "id": 5415
       }
     ]
   },
@@ -1963,19 +2294,23 @@
     "abilities": [
       {
         "name": "chaos_knight_chaos_bolt",
-        "nameCN": "混乱之箭"
+        "nameCN": "混乱之箭",
+        "id": 5426
       },
       {
         "name": "chaos_knight_reality_rift",
-        "nameCN": "实相裂隙"
+        "nameCN": "实相裂隙",
+        "id": 5427
       },
       {
         "name": "chaos_knight_chaos_strike",
-        "nameCN": "混沌一击"
+        "nameCN": "混沌一击",
+        "id": 5428
       },
       {
         "name": "chaos_knight_phantasm",
-        "nameCN": "混沌之军"
+        "nameCN": "混沌之军",
+        "id": 5429
       }
     ]
   },
@@ -1987,19 +2322,23 @@
     "abilities": [
       {
         "name": "meepo_earthbind",
-        "nameCN": "地之束缚"
+        "nameCN": "地之束缚",
+        "id": 5430
       },
       {
         "name": "meepo_poof",
-        "nameCN": "忽悠"
+        "nameCN": "忽悠",
+        "id": 5431
       },
       {
         "name": "meepo_ransack",
-        "nameCN": "洗劫"
+        "nameCN": "洗劫",
+        "id": 7318
       },
       {
         "name": "meepo_divided_we_stand",
-        "nameCN": "分则能成"
+        "nameCN": "分则能成",
+        "id": 5433
       }
     ]
   },
@@ -2011,19 +2350,23 @@
     "abilities": [
       {
         "name": "treant_natures_grasp",
-        "nameCN": "自然卷握"
+        "nameCN": "自然卷握",
+        "id": 338
       },
       {
         "name": "treant_leech_seed",
-        "nameCN": "寄生种子"
+        "nameCN": "寄生种子",
+        "id": 5435
       },
       {
         "name": "treant_living_armor",
-        "nameCN": "活体护甲"
+        "nameCN": "活体护甲",
+        "id": 5436
       },
       {
         "name": "treant_overgrowth",
-        "nameCN": "疯狂生长"
+        "nameCN": "疯狂生长",
+        "id": 5437
       }
     ]
   },
@@ -2035,19 +2378,23 @@
     "abilities": [
       {
         "name": "ogre_magi_fireblast",
-        "nameCN": "火焰爆轰"
+        "nameCN": "火焰爆轰",
+        "id": 5438
       },
       {
         "name": "ogre_magi_ignite",
-        "nameCN": "引燃"
+        "nameCN": "引燃",
+        "id": 5439
       },
       {
         "name": "ogre_magi_bloodlust",
-        "nameCN": "嗜血术"
+        "nameCN": "嗜血术",
+        "id": 5440
       },
       {
         "name": "ogre_magi_multicast",
-        "nameCN": "多重施法"
+        "nameCN": "多重施法",
+        "id": 5441
       }
     ]
   },
@@ -2059,19 +2406,23 @@
     "abilities": [
       {
         "name": "undying_decay",
-        "nameCN": "腐朽"
+        "nameCN": "腐朽",
+        "id": 5442
       },
       {
         "name": "undying_soul_rip",
-        "nameCN": "噬魂"
+        "nameCN": "噬魂",
+        "id": 5443
       },
       {
         "name": "undying_tombstone",
-        "nameCN": "墓碑"
+        "nameCN": "墓碑",
+        "id": 5444
       },
       {
         "name": "undying_flesh_golem",
-        "nameCN": "血肉傀儡"
+        "nameCN": "血肉傀儡",
+        "id": 5447
       }
     ]
   },
@@ -2083,19 +2434,23 @@
     "abilities": [
       {
         "name": "rubick_telekinesis",
-        "nameCN": "隔空取物"
+        "nameCN": "隔空取物",
+        "id": 5448
       },
       {
         "name": "rubick_fade_bolt",
-        "nameCN": "弱化能流"
+        "nameCN": "弱化能流",
+        "id": 5450
       },
       {
         "name": "rubick_arcane_supremacy",
-        "nameCN": "奥术至尊"
+        "nameCN": "奥术至尊",
+        "id": 7320
       },
       {
         "name": "rubick_spell_steal",
-        "nameCN": "技能窃取"
+        "nameCN": "技能窃取",
+        "id": 5452
       }
     ]
   },
@@ -2107,19 +2462,23 @@
     "abilities": [
       {
         "name": "disruptor_thunder_strike",
-        "nameCN": "风雷之击"
+        "nameCN": "风雷之击",
+        "id": 5458
       },
       {
         "name": "disruptor_glimpse",
-        "nameCN": "恶念瞥视"
+        "nameCN": "恶念瞥视",
+        "id": 5459
       },
       {
         "name": "disruptor_kinetic_field",
-        "nameCN": "动能力场"
+        "nameCN": "动能力场",
+        "id": 5460
       },
       {
         "name": "disruptor_static_storm",
-        "nameCN": "静态风暴"
+        "nameCN": "静态风暴",
+        "id": 5461
       }
     ]
   },
@@ -2131,19 +2490,23 @@
     "abilities": [
       {
         "name": "nyx_assassin_impale",
-        "nameCN": "穿刺"
+        "nameCN": "穿刺",
+        "id": 5462
       },
       {
         "name": "nyx_assassin_jolt",
-        "nameCN": "神智爆裂"
+        "nameCN": "神智爆裂",
+        "id": 1104
       },
       {
         "name": "nyx_assassin_spiked_carapace",
-        "nameCN": "尖刺外壳"
+        "nameCN": "尖刺外壳",
+        "id": 5464
       },
       {
         "name": "nyx_assassin_vendetta",
-        "nameCN": "复仇"
+        "nameCN": "复仇",
+        "id": 5465
       }
     ]
   },
@@ -2155,19 +2518,23 @@
     "abilities": [
       {
         "name": "naga_siren_mirror_image",
-        "nameCN": "镜像"
+        "nameCN": "镜像",
+        "id": 5467
       },
       {
         "name": "naga_siren_ensnare",
-        "nameCN": "诱捕"
+        "nameCN": "诱捕",
+        "id": 5468
       },
       {
         "name": "naga_siren_rip_tide",
-        "nameCN": "激流"
+        "nameCN": "激流",
+        "id": 5469
       },
       {
         "name": "naga_siren_song_of_the_siren",
-        "nameCN": "海妖之歌"
+        "nameCN": "海妖之歌",
+        "id": 5470
       }
     ]
   },
@@ -2179,19 +2546,23 @@
     "abilities": [
       {
         "name": "keeper_of_the_light_illuminate",
-        "nameCN": "冲击波"
+        "nameCN": "冲击波",
+        "id": 5471
       },
       {
         "name": "keeper_of_the_light_blinding_light",
-        "nameCN": "致盲之光"
+        "nameCN": "致盲之光",
+        "id": 5476
       },
       {
         "name": "keeper_of_the_light_chakra_magic",
-        "nameCN": "查克拉魔法"
+        "nameCN": "查克拉魔法",
+        "id": 5473
       },
       {
         "name": "keeper_of_the_light_spirit_form",
-        "nameCN": "灵魂形态"
+        "nameCN": "灵魂形态",
+        "id": 5474
       }
     ]
   },
@@ -2203,27 +2574,33 @@
     "abilities": [
       {
         "name": "wisp_tether",
-        "nameCN": "羁绊"
+        "nameCN": "羁绊",
+        "id": 5485
       },
       {
         "name": "wisp_spirits",
-        "nameCN": "幽魂"
+        "nameCN": "幽魂",
+        "id": 5486
       },
       {
         "name": "wisp_overcharge",
-        "nameCN": "过载"
+        "nameCN": "过载",
+        "id": 5487
       },
       {
         "name": "wisp_spirits_in",
-        "nameCN": "拉近幽魂"
+        "nameCN": "拉近幽魂",
+        "id": 5490
       },
       {
         "name": "wisp_spirits_out",
-        "nameCN": "拉远幽魂"
+        "nameCN": "拉远幽魂",
+        "id": 5493
       },
       {
         "name": "wisp_relocate",
-        "nameCN": "降临"
+        "nameCN": "降临",
+        "id": 5488
       }
     ]
   },
@@ -2235,19 +2612,23 @@
     "abilities": [
       {
         "name": "visage_grave_chill",
-        "nameCN": "黄泉颤抖"
+        "nameCN": "黄泉颤抖",
+        "id": 5480
       },
       {
         "name": "visage_soul_assumption",
-        "nameCN": "灵魂超度"
+        "nameCN": "灵魂超度",
+        "id": 5481
       },
       {
         "name": "visage_gravekeepers_cloak",
-        "nameCN": "陵卫斗篷"
+        "nameCN": "陵卫斗篷",
+        "id": 5482
       },
       {
         "name": "visage_summon_familiars",
-        "nameCN": "召唤佣兽"
+        "nameCN": "召唤佣兽",
+        "id": 5483
       }
     ]
   },
@@ -2259,19 +2640,23 @@
     "abilities": [
       {
         "name": "slark_dark_pact",
-        "nameCN": "黑暗契约"
+        "nameCN": "黑暗契约",
+        "id": 5494
       },
       {
         "name": "slark_pounce",
-        "nameCN": "突袭"
+        "nameCN": "突袭",
+        "id": 5495
       },
       {
         "name": "slark_essence_shift",
-        "nameCN": "能量转移"
+        "nameCN": "能量转移",
+        "id": 5496
       },
       {
         "name": "slark_shadow_dance",
-        "nameCN": "暗影之舞"
+        "nameCN": "暗影之舞",
+        "id": 5497
       }
     ]
   },
@@ -2283,19 +2668,23 @@
     "abilities": [
       {
         "name": "medusa_split_shot",
-        "nameCN": "分裂箭"
+        "nameCN": "分裂箭",
+        "id": 5504
       },
       {
         "name": "medusa_mystic_snake",
-        "nameCN": "秘术异蛇"
+        "nameCN": "秘术异蛇",
+        "id": 5505
       },
       {
         "name": "medusa_gorgon_grasp",
-        "nameCN": "罗网箭阵"
+        "nameCN": "罗网箭阵",
+        "id": 1475
       },
       {
         "name": "medusa_stone_gaze",
-        "nameCN": "石化凝视"
+        "nameCN": "石化凝视",
+        "id": 5507
       }
     ]
   },
@@ -2307,23 +2696,28 @@
     "abilities": [
       {
         "name": "troll_warlord_whirling_axes_ranged",
-        "nameCN": "旋风飞斧（远程）"
+        "nameCN": "旋风飞斧（远程）",
+        "id": 5509
       },
       {
         "name": "troll_warlord_whirling_axes_melee",
-        "nameCN": "旋风飞斧（近战）"
+        "nameCN": "旋风飞斧（近战）",
+        "id": 5510
       },
       {
         "name": "troll_warlord_fervor",
-        "nameCN": "热血战魂"
+        "nameCN": "热血战魂",
+        "id": 5511
       },
       {
         "name": "troll_warlord_berserkers_rage",
-        "nameCN": "狂战士之怒"
+        "nameCN": "狂战士之怒",
+        "id": 5508
       },
       {
         "name": "troll_warlord_battle_trance",
-        "nameCN": "战斗专注"
+        "nameCN": "战斗专注",
+        "id": 5512
       }
     ]
   },
@@ -2335,19 +2729,23 @@
     "abilities": [
       {
         "name": "centaur_hoof_stomp",
-        "nameCN": "马蹄践踏"
+        "nameCN": "马蹄践踏",
+        "id": 5514
       },
       {
         "name": "centaur_double_edge",
-        "nameCN": "双刃剑"
+        "nameCN": "双刃剑",
+        "id": 5515
       },
       {
         "name": "centaur_return",
-        "nameCN": "反伤"
+        "nameCN": "反伤",
+        "id": 5516
       },
       {
         "name": "centaur_stampede",
-        "nameCN": "奔袭冲撞"
+        "nameCN": "奔袭冲撞",
+        "id": 5517
       }
     ]
   },
@@ -2359,19 +2757,23 @@
     "abilities": [
       {
         "name": "magnataur_shockwave",
-        "nameCN": "震荡波"
+        "nameCN": "震荡波",
+        "id": 5518
       },
       {
         "name": "magnataur_empower",
-        "nameCN": "授予力量"
+        "nameCN": "授予力量",
+        "id": 5519
       },
       {
         "name": "magnataur_skewer",
-        "nameCN": "巨角冲撞"
+        "nameCN": "巨角冲撞",
+        "id": 5520
       },
       {
         "name": "magnataur_reverse_polarity",
-        "nameCN": "两极反转"
+        "nameCN": "两极反转",
+        "id": 5521
       }
     ]
   },
@@ -2383,19 +2785,23 @@
     "abilities": [
       {
         "name": "shredder_whirling_death",
-        "nameCN": "死亡旋风"
+        "nameCN": "死亡旋风",
+        "id": 5524
       },
       {
         "name": "shredder_timber_chain",
-        "nameCN": "伐木锯链"
+        "nameCN": "伐木锯链",
+        "id": 5525
       },
       {
         "name": "shredder_reactive_armor",
-        "nameCN": "活性护甲"
+        "nameCN": "活性护甲",
+        "id": 5526
       },
       {
         "name": "shredder_chakram",
-        "nameCN": "锯齿飞轮"
+        "nameCN": "锯齿飞轮",
+        "id": 5527
       }
     ]
   },
@@ -2407,19 +2813,23 @@
     "abilities": [
       {
         "name": "bristleback_viscous_nasal_goo",
-        "nameCN": "粘稠鼻液"
+        "nameCN": "粘稠鼻液",
+        "id": 5548
       },
       {
         "name": "bristleback_quill_spray",
-        "nameCN": "刺针扫射"
+        "nameCN": "刺针扫射",
+        "id": 5549
       },
       {
         "name": "bristleback_bristleback",
-        "nameCN": "钢毛后背"
+        "nameCN": "钢毛后背",
+        "id": 5550
       },
       {
         "name": "bristleback_warpath",
-        "nameCN": "战意"
+        "nameCN": "战意",
+        "id": 5551
       }
     ]
   },
@@ -2431,19 +2841,23 @@
     "abilities": [
       {
         "name": "tusk_ice_shards",
-        "nameCN": "寒冰碎片"
+        "nameCN": "寒冰碎片",
+        "id": 5565
       },
       {
         "name": "tusk_snowball",
-        "nameCN": "雪球"
+        "nameCN": "雪球",
+        "id": 5566
       },
       {
         "name": "tusk_drinking_buddies",
-        "nameCN": "酒友"
+        "nameCN": "酒友",
+        "id": 1385
       },
       {
         "name": "tusk_walrus_punch",
-        "nameCN": "海象神拳！"
+        "nameCN": "海象神拳！",
+        "id": 5568
       }
     ]
   },
@@ -2455,19 +2869,23 @@
     "abilities": [
       {
         "name": "skywrath_mage_arcane_bolt",
-        "nameCN": "奥法鹰隼"
+        "nameCN": "奥法鹰隼",
+        "id": 5581
       },
       {
         "name": "skywrath_mage_concussive_shot",
-        "nameCN": "震荡光弹"
+        "nameCN": "震荡光弹",
+        "id": 5582
       },
       {
         "name": "skywrath_mage_ancient_seal",
-        "nameCN": "上古封印"
+        "nameCN": "上古封印",
+        "id": 5583
       },
       {
         "name": "skywrath_mage_mystic_flare",
-        "nameCN": "神秘之耀"
+        "nameCN": "神秘之耀",
+        "id": 5584
       }
     ]
   },
@@ -2479,19 +2897,23 @@
     "abilities": [
       {
         "name": "abaddon_death_coil",
-        "nameCN": "迷雾缠绕"
+        "nameCN": "迷雾缠绕",
+        "id": 5585
       },
       {
         "name": "abaddon_aphotic_shield",
-        "nameCN": "无光之盾"
+        "nameCN": "无光之盾",
+        "id": 5586
       },
       {
         "name": "abaddon_frostmourne",
-        "nameCN": "魔霭诅咒"
+        "nameCN": "魔霭诅咒",
+        "id": 5587
       },
       {
         "name": "abaddon_borrowed_time",
-        "nameCN": "回光返照"
+        "nameCN": "回光返照",
+        "id": 5588
       }
     ]
   },
@@ -2503,19 +2925,23 @@
     "abilities": [
       {
         "name": "elder_titan_echo_stomp",
-        "nameCN": "回音重踏"
+        "nameCN": "回音重踏",
+        "id": 5589
       },
       {
         "name": "elder_titan_ancestral_spirit",
-        "nameCN": "灵体游魂"
+        "nameCN": "灵体游魂",
+        "id": 1392
       },
       {
         "name": "elder_titan_natural_order",
-        "nameCN": "自然秩序"
+        "nameCN": "自然秩序",
+        "id": 5593
       },
       {
         "name": "elder_titan_earth_splitter",
-        "nameCN": "裂地沟壑"
+        "nameCN": "裂地沟壑",
+        "id": 5594
       }
     ]
   },
@@ -2527,19 +2953,23 @@
     "abilities": [
       {
         "name": "legion_commander_overwhelming_odds",
-        "nameCN": "压倒性优势"
+        "nameCN": "压倒性优势",
+        "id": 5595
       },
       {
         "name": "legion_commander_press_the_attack",
-        "nameCN": "强攻"
+        "nameCN": "强攻",
+        "id": 5596
       },
       {
         "name": "legion_commander_moment_of_courage",
-        "nameCN": "勇气之霎"
+        "nameCN": "勇气之霎",
+        "id": 5597
       },
       {
         "name": "legion_commander_duel",
-        "nameCN": "决斗"
+        "nameCN": "决斗",
+        "id": 5598
       }
     ]
   },
@@ -2551,23 +2981,28 @@
     "abilities": [
       {
         "name": "ember_spirit_searing_chains",
-        "nameCN": "炎阳索"
+        "nameCN": "炎阳索",
+        "id": 5603
       },
       {
         "name": "ember_spirit_sleight_of_fist",
-        "nameCN": "无影拳"
+        "nameCN": "无影拳",
+        "id": 5604
       },
       {
         "name": "ember_spirit_flame_guard",
-        "nameCN": "烈火罩"
+        "nameCN": "烈火罩",
+        "id": 5605
       },
       {
         "name": "ember_spirit_activate_fire_remnant",
-        "nameCN": "激活残焰"
+        "nameCN": "激活残焰",
+        "id": 5607
       },
       {
         "name": "ember_spirit_fire_remnant",
-        "nameCN": "残焰"
+        "nameCN": "残焰",
+        "id": 5606
       }
     ]
   },
@@ -2579,19 +3014,23 @@
     "abilities": [
       {
         "name": "earth_spirit_boulder_smash",
-        "nameCN": "巨石冲击"
+        "nameCN": "巨石冲击",
+        "id": 5608
       },
       {
         "name": "earth_spirit_rolling_boulder",
-        "nameCN": "巨石翻滚"
+        "nameCN": "巨石翻滚",
+        "id": 5609
       },
       {
         "name": "earth_spirit_geomagnetic_grip",
-        "nameCN": "地磁之握"
+        "nameCN": "地磁之握",
+        "id": 5610
       },
       {
         "name": "earth_spirit_magnetize",
-        "nameCN": "磁化"
+        "nameCN": "磁化",
+        "id": 5612
       }
     ]
   },
@@ -2603,19 +3042,23 @@
     "abilities": [
       {
         "name": "terrorblade_reflection",
-        "nameCN": "倒影"
+        "nameCN": "倒影",
+        "id": 5619
       },
       {
         "name": "terrorblade_conjure_image",
-        "nameCN": "惑幻"
+        "nameCN": "惑幻",
+        "id": 5620
       },
       {
         "name": "terrorblade_metamorphosis",
-        "nameCN": "魔化"
+        "nameCN": "魔化",
+        "id": 5621
       },
       {
         "name": "terrorblade_sunder",
-        "nameCN": "魂断"
+        "nameCN": "魂断",
+        "id": 5622
       }
     ]
   },
@@ -2627,19 +3070,23 @@
     "abilities": [
       {
         "name": "phoenix_icarus_dive",
-        "nameCN": "凤凰冲击"
+        "nameCN": "凤凰冲击",
+        "id": 5623
       },
       {
         "name": "phoenix_fire_spirits",
-        "nameCN": "烈火精灵"
+        "nameCN": "烈火精灵",
+        "id": 5625
       },
       {
         "name": "phoenix_sun_ray",
-        "nameCN": "烈日炙烤"
+        "nameCN": "烈日炙烤",
+        "id": 5626
       },
       {
         "name": "phoenix_supernova",
-        "nameCN": "超新星"
+        "nameCN": "超新星",
+        "id": 5630
       }
     ]
   },
@@ -2651,19 +3098,23 @@
     "abilities": [
       {
         "name": "oracle_fortunes_end",
-        "nameCN": "气运之末"
+        "nameCN": "气运之末",
+        "id": 5637
       },
       {
         "name": "oracle_fates_edict",
-        "nameCN": "命运敕令"
+        "nameCN": "命运敕令",
+        "id": 5638
       },
       {
         "name": "oracle_purifying_flames",
-        "nameCN": "涤罪之焰"
+        "nameCN": "涤罪之焰",
+        "id": 5639
       },
       {
         "name": "oracle_false_promise",
-        "nameCN": "虚妄之诺"
+        "nameCN": "虚妄之诺",
+        "id": 5640
       }
     ]
   },
@@ -2675,19 +3126,23 @@
     "abilities": [
       {
         "name": "techies_sticky_bomb",
-        "nameCN": "粘性炸弹"
+        "nameCN": "粘性炸弹",
+        "id": 879
       },
       {
         "name": "techies_reactive_tazer",
-        "nameCN": "活性电击"
+        "nameCN": "活性电击",
+        "id": 886
       },
       {
         "name": "techies_suicide",
-        "nameCN": "爆破起飞！"
+        "nameCN": "爆破起飞！",
+        "id": 5601
       },
       {
         "name": "techies_land_mines",
-        "nameCN": "感应地雷"
+        "nameCN": "感应地雷",
+        "id": 5599
       }
     ]
   },
@@ -2699,19 +3154,23 @@
     "abilities": [
       {
         "name": "winter_wyvern_arctic_burn",
-        "nameCN": "严寒烧灼"
+        "nameCN": "严寒烧灼",
+        "id": 5651
       },
       {
         "name": "winter_wyvern_splinter_blast",
-        "nameCN": "碎裂冲击"
+        "nameCN": "碎裂冲击",
+        "id": 5652
       },
       {
         "name": "winter_wyvern_cold_embrace",
-        "nameCN": "极寒之拥"
+        "nameCN": "极寒之拥",
+        "id": 5653
       },
       {
         "name": "winter_wyvern_winters_curse",
-        "nameCN": "寒冬诅咒"
+        "nameCN": "寒冬诅咒",
+        "id": 5654
       }
     ]
   },
@@ -2723,19 +3182,23 @@
     "abilities": [
       {
         "name": "arc_warden_flux",
-        "nameCN": "乱流"
+        "nameCN": "乱流",
+        "id": 5677
       },
       {
         "name": "arc_warden_magnetic_field",
-        "nameCN": "磁场"
+        "nameCN": "磁场",
+        "id": 5678
       },
       {
         "name": "arc_warden_spark_wraith",
-        "nameCN": "闪光幽魂"
+        "nameCN": "闪光幽魂",
+        "id": 5679
       },
       {
         "name": "arc_warden_tempest_double",
-        "nameCN": "风暴双雄"
+        "nameCN": "风暴双雄",
+        "id": 5683
       }
     ]
   },
@@ -2747,19 +3210,23 @@
     "abilities": [
       {
         "name": "abyssal_underlord_firestorm",
-        "nameCN": "火焰风暴"
+        "nameCN": "火焰风暴",
+        "id": 5613
       },
       {
         "name": "abyssal_underlord_pit_of_malice",
-        "nameCN": "怨念深渊"
+        "nameCN": "怨念深渊",
+        "id": 5614
       },
       {
         "name": "abyssal_underlord_atrophy_aura",
-        "nameCN": "衰退光环"
+        "nameCN": "衰退光环",
+        "id": 5615
       },
       {
         "name": "abyssal_underlord_dark_portal",
-        "nameCN": "恶魔之扉"
+        "nameCN": "恶魔之扉",
+        "id": 865
       }
     ]
   },
@@ -2771,19 +3238,23 @@
     "abilities": [
       {
         "name": "monkey_king_boundless_strike",
-        "nameCN": "棒击大地"
+        "nameCN": "棒击大地",
+        "id": 5716
       },
       {
         "name": "monkey_king_tree_dance",
-        "nameCN": "丛林之舞"
+        "nameCN": "丛林之舞",
+        "id": 5721
       },
       {
         "name": "monkey_king_jingu_mastery",
-        "nameCN": "如意棒法"
+        "nameCN": "如意棒法",
+        "id": 5723
       },
       {
         "name": "monkey_king_wukongs_command",
-        "nameCN": "猴子猴孙"
+        "nameCN": "猴子猴孙",
+        "id": 5725
       }
     ]
   },
@@ -2795,19 +3266,23 @@
     "abilities": [
       {
         "name": "pangolier_swashbuckle",
-        "nameCN": "虚张声势"
+        "nameCN": "虚张声势",
+        "id": 6344
       },
       {
         "name": "pangolier_shield_crash",
-        "nameCN": "甲盾冲击"
+        "nameCN": "甲盾冲击",
+        "id": 6461
       },
       {
         "name": "pangolier_lucky_shot",
-        "nameCN": "幸运一击"
+        "nameCN": "幸运一击",
+        "id": 7307
       },
       {
         "name": "pangolier_gyroshell",
-        "nameCN": "地雷滚滚"
+        "nameCN": "地雷滚滚",
+        "id": 6343
       }
     ]
   },
@@ -2819,23 +3294,28 @@
     "abilities": [
       {
         "name": "dark_willow_bramble_maze",
-        "nameCN": "荆棘迷宫"
+        "nameCN": "荆棘迷宫",
+        "id": 6339
       },
       {
         "name": "dark_willow_shadow_realm",
-        "nameCN": "暗影之境"
+        "nameCN": "暗影之境",
+        "id": 6341
       },
       {
         "name": "dark_willow_cursed_crown",
-        "nameCN": "诅咒王冠"
+        "nameCN": "诅咒王冠",
+        "id": 6342
       },
       {
         "name": "dark_willow_bedlam",
-        "nameCN": "作祟"
+        "nameCN": "作祟",
+        "id": 6340
       },
       {
         "name": "dark_willow_terrorize",
-        "nameCN": "恐吓"
+        "nameCN": "恐吓",
+        "id": 8340
       }
     ]
   },
@@ -2847,19 +3327,23 @@
     "abilities": [
       {
         "name": "grimstroke_dark_artistry",
-        "nameCN": "命运之笔"
+        "nameCN": "命运之笔",
+        "id": 8000
       },
       {
         "name": "grimstroke_ink_creature",
-        "nameCN": "幻影之拥"
+        "nameCN": "幻影之拥",
+        "id": 8006
       },
       {
         "name": "grimstroke_spirit_walk",
-        "nameCN": "墨涌"
+        "nameCN": "墨涌",
+        "id": 8007
       },
       {
         "name": "grimstroke_soul_chain",
-        "nameCN": "缚魂"
+        "nameCN": "缚魂",
+        "id": 6491
       }
     ]
   },
@@ -2871,19 +3355,23 @@
     "abilities": [
       {
         "name": "mars_spear",
-        "nameCN": "战神迅矛"
+        "nameCN": "战神迅矛",
+        "id": 6583
       },
       {
         "name": "mars_gods_rebuke",
-        "nameCN": "神之谴戒"
+        "nameCN": "神之谴戒",
+        "id": 6495
       },
       {
         "name": "mars_bulwark",
-        "nameCN": "护身甲盾"
+        "nameCN": "护身甲盾",
+        "id": 6582
       },
       {
         "name": "mars_arena_of_blood",
-        "nameCN": "热血竞技场"
+        "nameCN": "热血竞技场",
+        "id": 1416
       }
     ]
   },
@@ -2895,19 +3383,23 @@
     "abilities": [
       {
         "name": "void_spirit_aether_remnant",
-        "nameCN": "残阴"
+        "nameCN": "残阴",
+        "id": 7701
       },
       {
         "name": "void_spirit_dissimilate",
-        "nameCN": "异化"
+        "nameCN": "异化",
+        "id": 6470
       },
       {
         "name": "void_spirit_resonant_pulse",
-        "nameCN": "共鸣脉冲"
+        "nameCN": "共鸣脉冲",
+        "id": 7710
       },
       {
         "name": "void_spirit_astral_step",
-        "nameCN": "太虚之径"
+        "nameCN": "太虚之径",
+        "id": 7705
       }
     ]
   },
@@ -2919,19 +3411,23 @@
     "abilities": [
       {
         "name": "snapfire_scatterblast",
-        "nameCN": "电光石火"
+        "nameCN": "电光石火",
+        "id": 6480
       },
       {
         "name": "snapfire_firesnap_cookie",
-        "nameCN": "龙炎饼干"
+        "nameCN": "龙炎饼干",
+        "id": 6483
       },
       {
         "name": "snapfire_lil_shredder",
-        "nameCN": "霹雳铁手"
+        "nameCN": "霹雳铁手",
+        "id": 6488
       },
       {
         "name": "snapfire_mortimer_kisses",
-        "nameCN": "蜥蜴绝吻"
+        "nameCN": "蜥蜴绝吻",
+        "id": 6482
       }
     ]
   },
@@ -2943,19 +3439,23 @@
     "abilities": [
       {
         "name": "hoodwink_acorn_shot",
-        "nameCN": "爆栗出击"
+        "nameCN": "爆栗出击",
+        "id": 8429
       },
       {
         "name": "hoodwink_bushwhack",
-        "nameCN": "野地奇袭"
+        "nameCN": "野地奇袭",
+        "id": 8158
       },
       {
         "name": "hoodwink_scurry",
-        "nameCN": "密林奔走"
+        "nameCN": "密林奔走",
+        "id": 9501
       },
       {
         "name": "hoodwink_sharpshooter",
-        "nameCN": "一箭穿心"
+        "nameCN": "一箭穿心",
+        "id": 8106
       }
     ]
   },
@@ -2967,19 +3467,23 @@
     "abilities": [
       {
         "name": "dawnbreaker_fire_wreath",
-        "nameCN": "星破天惊"
+        "nameCN": "星破天惊",
+        "id": 7902
       },
       {
         "name": "dawnbreaker_celestial_hammer",
-        "nameCN": "上界重锤"
+        "nameCN": "上界重锤",
+        "id": 7914
       },
       {
         "name": "dawnbreaker_luminosity",
-        "nameCN": "熠熠生辉"
+        "nameCN": "熠熠生辉",
+        "id": 7918
       },
       {
         "name": "dawnbreaker_solar_guardian",
-        "nameCN": "天光现世"
+        "nameCN": "天光现世",
+        "id": 7906
       }
     ]
   },
@@ -2991,19 +3495,23 @@
     "abilities": [
       {
         "name": "marci_grapple",
-        "nameCN": "过肩摔"
+        "nameCN": "过肩摔",
+        "id": 8192
       },
       {
         "name": "marci_companion_run",
-        "nameCN": "回身踢"
+        "nameCN": "回身踢",
+        "id": 8235
       },
       {
         "name": "marci_guardian",
-        "nameCN": "健体术"
+        "nameCN": "健体术",
+        "id": 1426
       },
       {
         "name": "marci_unleash",
-        "nameCN": "怒拳破"
+        "nameCN": "怒拳破",
+        "id": 8198
       }
     ]
   },
@@ -3015,19 +3523,23 @@
     "abilities": [
       {
         "name": "primal_beast_onslaught",
-        "nameCN": "突"
+        "nameCN": "突",
+        "id": 992
       },
       {
         "name": "primal_beast_trample",
-        "nameCN": "踏"
+        "nameCN": "踏",
+        "id": 994
       },
       {
         "name": "primal_beast_uproar",
-        "nameCN": "咤"
+        "nameCN": "咤",
+        "id": 995
       },
       {
         "name": "primal_beast_pulverize",
-        "nameCN": "捶"
+        "nameCN": "捶",
+        "id": 996
       }
     ]
   },
@@ -3039,19 +3551,23 @@
     "abilities": [
       {
         "name": "muerta_dead_shot",
-        "nameCN": "弹无虚发"
+        "nameCN": "弹无虚发",
+        "id": 5751
       },
       {
         "name": "muerta_the_calling",
-        "nameCN": "唤魂"
+        "nameCN": "唤魂",
+        "id": 5752
       },
       {
         "name": "muerta_gunslinger",
-        "nameCN": "神枪在手"
+        "nameCN": "神枪在手",
+        "id": 5753
       },
       {
         "name": "muerta_pierce_the_veil",
-        "nameCN": "越界"
+        "nameCN": "越界",
+        "id": 5754
       }
     ]
   },
@@ -3063,31 +3579,38 @@
     "abilities": [
       {
         "name": "ringmaster_tame_the_beasts",
-        "nameCN": "驯兽术"
+        "nameCN": "驯兽术",
+        "id": 352
       },
       {
         "name": "ringmaster_the_box",
-        "nameCN": "逃生技"
+        "nameCN": "逃生技",
+        "id": 383
       },
       {
         "name": "ringmaster_impalement",
-        "nameCN": "尖刀戏"
+        "nameCN": "尖刀戏",
+        "id": 386
       },
       {
         "name": "ringmaster_wheel",
-        "nameCN": "奇观轮"
+        "nameCN": "奇观轮",
+        "id": 385
       },
       {
         "name": "ringmaster_funhouse_mirror",
-        "nameCN": "哈哈镜"
+        "nameCN": "哈哈镜",
+        "id": 389
       },
       {
         "name": "ringmaster_strongman_tonic",
-        "nameCN": "强力水"
+        "nameCN": "强力水",
+        "id": 392
       },
       {
         "name": "ringmaster_whoopee_cushion",
-        "nameCN": "整蛊垫"
+        "nameCN": "整蛊垫",
+        "id": 390
       }
     ]
   },
@@ -3099,35 +3622,43 @@
     "abilities": [
       {
         "name": "kez_echo_slash",
-        "nameCN": "回音重斩"
+        "nameCN": "回音重斩",
+        "id": 1498
       },
       {
         "name": "kez_grappling_claw",
-        "nameCN": "制敌爪钩"
+        "nameCN": "制敌爪钩",
+        "id": 1499
       },
       {
         "name": "kez_kazurai_katana",
-        "nameCN": "影武长刀"
+        "nameCN": "影武长刀",
+        "id": 1500
       },
       {
         "name": "kez_raptor_dance",
-        "nameCN": "猛禽之舞"
+        "nameCN": "猛禽之舞",
+        "id": 1501
       },
       {
         "name": "kez_falcon_rush",
-        "nameCN": "天隼冲击"
+        "nameCN": "天隼冲击",
+        "id": 1502
       },
       {
         "name": "kez_talon_toss",
-        "nameCN": "利爪飞掷"
+        "nameCN": "利爪飞掷",
+        "id": 1503
       },
       {
         "name": "kez_shodo_sai",
-        "nameCN": "翔影之钗"
+        "nameCN": "翔影之钗",
+        "id": 1504
       },
       {
         "name": "kez_ravens_veil",
-        "nameCN": "渡鸦之纱"
+        "nameCN": "渡鸦之纱",
+        "id": 1506
       }
     ]
   }

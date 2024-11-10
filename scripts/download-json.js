@@ -48,6 +48,7 @@ async function downloadJson() {
     hero.abilities = heroData.abilities.filter(i => 
       !i.ability_is_granted_by_scepter && !i.ability_is_granted_by_shard && !i.ability_is_innate
     ).map(i => ({
+      id: i.id,
       name: i.name,
       nameCN: i.name_loc,
     }))

@@ -4,12 +4,14 @@ import axios from 'axios'
 
 type State = {
   heroList: Hero[]
+  abilityList: Ability[]
   itemRows: ItemRow[]
   currentChoose: Choose | null
 }
 
 type Actions = {
   initHeroList: () => void
+  initItemRows: (rows: ItemRow[]) => void
   setCurrentChoose: (choose: Choose | null) => void
   updateItemRow: (v: Hero | Ability) => void
   swapItemRow: (indexes1: number[], indexes2: number[]) => void
@@ -20,6 +22,7 @@ const STORAGE_KEY = 'dota2omg-recording-tool-item-rows'
 export const useDataStore = create<State & Actions>()((set, get) => ({
   config: DefaultConfig,
   heroList: [],
+  abilityList: [],
   itemRows: [],
   currentChoose: null,
   initHeroList: () => {
@@ -40,10 +43,14 @@ export const useDataStore = create<State & Actions>()((set, get) => ({
         }
         set({
           heroList: data,
+          abilityList: data.reduce((acc, hero) => acc.concat(hero.abilities), [] as Ability[]),
           itemRows
         })
       }
     })
+  },
+  initItemRows: (rows) => {
+    set({ itemRows: rows })
   },
   setCurrentChoose: (currentChoose) => {
     set({ currentChoose })

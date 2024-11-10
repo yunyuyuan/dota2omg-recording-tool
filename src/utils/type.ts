@@ -7,6 +7,7 @@ export type Hero = {
 }
 
 export type Ability = {
+  id: number;
   name: string;
   nameCN: string;
 }

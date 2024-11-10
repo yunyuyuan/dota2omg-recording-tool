@@ -21,7 +21,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <div className="flex flex-col items-center gap-8">
+      <div className="flex flex-col items-center gap-6">
         <ConfigSettings />
         <Divider orientation="horizontal" className="w-full">
           <ExpandCircleDownOutlined fontSize="small" className="mr-1 animate-bounce" />Result
