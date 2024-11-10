@@ -1,10 +1,10 @@
-import { DefaultConfig, type Hero, type Ability, type Choose } from '~/utils/type'
+import { DefaultConfig, type Hero, type Ability, type Choose, type ItemRow } from '~/utils/type'
 import { create } from 'zustand'
 import axios from 'axios'
 
 type State = {
   heroList: Hero[]
-  itemRows: { hero: Hero, abilities: Ability[] }[]
+  itemRows: ItemRow[]
   currentChoose: Choose | null
 }
 

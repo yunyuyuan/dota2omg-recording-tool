@@ -11,6 +11,8 @@ export type Ability = {
   nameCN: string;
 }
 
+export type ItemRow = { hero: Hero, abilities: Ability[] }
+
 export type Config = {
   size: number;
   gapX: number;
