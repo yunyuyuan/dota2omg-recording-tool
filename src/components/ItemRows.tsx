@@ -4,6 +4,7 @@ import { useDataStore } from "~/utils/dataStore";
 import domtoimage from 'dom-to-image';
 import { type Choose } from "~/utils/type";
 import { useConfigStore } from "~/utils/configStore";
+import clsx from 'clsx';
 import { getImgUrl, useNotifications } from "~/utils/utils";
 import { CloudDownloadOutlined, EmojiObjectsOutlined, FileUploadOutlined } from "@mui/icons-material";
 import ImportMatchDialog from "./ImportMatch";
@@ -57,9 +58,13 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
     event.preventDefault();
     if (currentDragType === 'ability') {
       swapItemRow(currentDragIndex, [index1, index2]);
-      setCurrentDragIndex([]);
-      setCurrentDragOverIndex([]);
+      clearDragState();
     }
+  }
+
+  const clearDragState = () => {
+    setCurrentDragIndex([]);
+    setCurrentDragOverIndex([]);
   }
 
   const onExport = () => {
@@ -99,7 +104,12 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                 gap: `${config.gapX}px`
               }}>
                 <img
-                  className="h-full cursor-pointer transition-all hover:scale-105"
+                  className={clsx(
+                    "h-full cursor-pointer transition-all hover:scale-105",
+                    currentDragType === 'hero' && 
+                    (currentDragIndex[0] === index1 || currentDragOverIndex[0] === index1) && 
+                    'scale-[0.85]' 
+                  )}
                   style={{ borderRadius: `${config.roundedHero}px` }}
                   src={getImgUrl(false, 'heroes', i.hero.name)}
                   alt="hero"
@@ -107,13 +117,24 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                   draggable={true}
                   onDragStart={handleHeroDrag(index1)}
                   onDragOver={handleHeroDragOver(index1)}
+                  onDragEnd={() => clearDragState()}
                   onDrop={handleHeroDrop(index1)}
                 />
                 {
                   i.abilities.map((i, index2) => (
                     <img
-                      className="h-full cursor-pointer transition-all hover:scale-105"
-                      style={{ borderRadius: `${config.roundedAbility}px` }}
+                      className={clsx(
+                        "h-full cursor-pointer transition-all hover:scale-105",
+                        currentDragType === 'ability' && 
+                        (
+                          (currentDragIndex[0] === index1 &&  currentDragIndex[1] === index2) || 
+                          (currentDragOverIndex[0] === index1 &&  currentDragOverIndex[1] === index2)
+                        ) && 
+                        'scale-[0.85]' 
+                      )}
+                      style={{ 
+                        borderRadius: `${config.roundedAbility}px`,
+                      }}
                       key={i.id.toString() + index2}
                       src={getImgUrl(false, 'abilities', i.name)}
                       alt="ability"
@@ -121,6 +142,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                       draggable={true}
                       onDragStart={handleAbilityDrag(index1, index2)}
                       onDragOver={handleAbilityDragOver(index1, index2)}
+                      onDragEnd={() => clearDragState()}
                       onDrop={handleAbilityDrop(index1, index2)}
                     />
                   ))

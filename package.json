@@ -39,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^8.1.0",
     "@typescript-eslint/parser": "^8.1.0",
     "axios": "^1.7.7",
+    "clsx": "^2.1.1",
     "dom-to-image": "^2.6.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^15.0.1",
