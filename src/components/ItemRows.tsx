@@ -8,6 +8,7 @@ import clsx from 'clsx';
 import { getImgUrl, useNotifications } from "~/utils/utils";
 import { CloudDownloadOutlined, EmojiObjectsOutlined, FileUploadOutlined } from "@mui/icons-material";
 import ImportMatchDialog from "./ImportMatch";
+import ImageWithSkeleton from "./SkeletonImage";
 
 export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choose) => void }) {
   const { notify } = useNotifications()
@@ -103,13 +104,15 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                 height: `${config.size}px`,
                 gap: `${config.gapX}px`
               }}>
-                <img
+                <ImageWithSkeleton
                   className={clsx(
                     "h-full cursor-pointer transition-all hover:scale-105",
                     currentDragType === 'hero' && 
                     (currentDragIndex[0] === index1 || currentDragOverIndex[0] === index1) && 
                     'scale-[0.85]' 
                   )}
+                  width={config.size*1.75}
+                  height={config.size}
                   style={{ borderRadius: `${config.roundedHero}px` }}
                   src={getImgUrl(false, 'heroes', i.hero.name)}
                   alt="hero"
@@ -122,7 +125,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                 />
                 {
                   i.abilities.map((i, index2) => (
-                    <img
+                    <ImageWithSkeleton
                       className={clsx(
                         "h-full cursor-pointer transition-all hover:scale-105",
                         currentDragType === 'ability' && 
@@ -132,6 +135,8 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                         ) && 
                         'scale-[0.85]' 
                       )}
+                      width={config.size}
+                      height={config.size}
                       style={{ 
                         borderRadius: `${config.roundedAbility}px`,
                       }}
