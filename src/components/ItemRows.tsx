@@ -10,6 +10,8 @@ import { CloudDownloadOutlined, EmojiObjectsOutlined, FileUploadOutlined } from 
 import ImportMatchDialog from "./ImportMatch";
 import ImageWithSkeleton from "./SkeletonImage";
 
+const HeroRatio = 256 / 144;
+
 export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choose) => void }) {
   const { notify } = useNotifications()
 
@@ -111,7 +113,7 @@ export default function ItemRows({ onOpenChoose }: { onOpenChoose: (choose: Choo
                     (currentDragIndex[0] === index1 || currentDragOverIndex[0] === index1) && 
                     'scale-[0.85]' 
                   )}
-                  width={config.size*1.75}
+                  width={config.size*HeroRatio}
                   height={config.size}
                   style={{ borderRadius: `${config.roundedHero}px` }}
                   src={getImgUrl(false, 'heroes', i.hero.name)}
